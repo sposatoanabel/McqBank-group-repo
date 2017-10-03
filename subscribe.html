@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http‐equiv="X‐UA‐Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="hamid khaldi">
+    <meta name="description" content="MCQ Bank">
+    <script src="https://use.fontawesome.com/b95ff2e880.js"></script>
+
+    <title>MCQBank/subscribe</title>
+
+    <!-- bootstrap core css -->
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about-us.css">
+    <link rel="stylesheet" href="css/testimonials.css">
+    <link rel="stylesheet" href="css/subscribe.css">
+
+
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <nav id="topNav" class="nav navbar navbar-default hidden-sm hidden-xs">
+            <div class="container">
+                <ul id="logNav" class="nav navbar-nav navbar-right">
+                    <li id="userBtn" class="dropdown">
+                        <a  href="#" class="dropdown-toggle" data-toggle="dropdown">Hamid <b id="userChevron" class="glyphicon glyphicon-chevron-down"></b></a>
+                        <ul class="dropdown-menu logList">
+                            <li><a href="#">Start a new test - Stage 2</a></li>
+                            <li><a href="#">Start a new test - Stage 3</a></li>
+                            <li><a href="#">Test History</a></li>
+                            <li><a href="#">Performance</a></li>
+                            <li><a href="#">Continue your unfinished test</a></li>
+                            <li><a href="#">My revision notes</a></li>
+                            <li><a href="#">Manage Subscriptions</a></li>
+                            <li><a href="#">Update profile</a></li>
+                            <hr>
+                            <li class="dropdown-item" id="logOut"><a href="#">Log Out</a></li>
+                        </ul><!--/logList-->
+                    </li><!--/dropdown-->
+            </ul><!--/ul-logNav-->
+          </div><!--/container-->
+        </nav><!--/topNav-->
+
+        <div id="bottomNav" class="container nav navbar-default">
+            <div class="navbar-header">
+                <div id="toggleBtn" data-toggle="collapse" data-target=".navbar-collapse"
+                        class="navbar-toggle"><span id="menuSpan" class="hidden-xs">MENU </span>
+                <div id="burgerSpan">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div><!--/burgerSpan-->
+                </div><!--/toggleBtn-->
+                <div id="mcqLogo">
+                    <h4><a href="index.html"><img class="img-responsive" src="resources/assets/mcq_logo.jpg" alt="MCQ Bank logo" width="218" height="51"></a></h4>
+                </div><!--/mcqLogo-->
+            </div><!--/navbar header-->
+
+            <div id="menuNav" class="navbar-collapse collapse">
+                   <ul  id="mainUl" class="nav navbar navbar-nav navbar-right">
+                    <li class=""><a class="page-scroll" href="index.html">Home</a></li>
+                    <li  id="myAccountBtn" class="dropdown">
+                            <a class="page-scroll dropdown-toggle" data-toggle="dropdown" href="#myAccount">My Account <b class="glyphicon glyphicon-chevron-down"></b></a>
+
+                        <ul id="myAccountUl" class="dropdown-menu">
+                            <li><a class="page-scroll" href="#">Update profile</a></li>
+                            <li><a class="page-scroll" href="#">Manage my Account</a></li>
+                            <li><a class="page-scroll" href="#">Settings</a></li>
+                        </ul>
+                    </li>
+                    <li id="examInfoBtn" class="dropdown">
+                        <a class="page-scroll dropdown-toggle" data-toggle="dropdown" href="planB-part1.html">Exam Info <b class="glyphicon glyphicon-chevron-down"></b></a>
+
+                        <ul id="examInfoUl" class="dropdown-menu">
+                            <li><a class="page-scroll" href="#">GT ST Entry</a></li>
+                            <li><a class="page-scroll" href="planB-part1.html">Plan B: Part 1</a></li>
+                            <li><a class="page-scroll" href="#">SJT for Medical Students</a></li>
+                            <li><a class="page-scroll" href="#">GP I&R Scheme</a></li>
+                            <li><a class="page-scroll" href="#">Australian Exams</a></li>
+                            <li><a class="page-scroll" href="#">GMC Fitness to Practice</a></li>
+                            <li><a class="page-scroll" href="#">Multi-Speciality Recruitment</a></li>
+                        </ul>
+                    </li>
+                    <li class=""><a class="page-scroll" href="testimonials.html">Testimonials</a></li>
+                    <li class=""><a class="page-scroll" href="about-us.html">About Us</a></li>
+                    <li id="subscribeLi" class="subsActive"><a id="subscribeBtn" class="page-scroll" href="subscribe.html"><button class="btn btn-info disabled">Subscribe</button></a></li>
+                </ul>
+
+            </div><!--/menuNav-->
+        </div><!--/bottomNav-->
+    </header>
+    <main>
+        <section id="topMain" class="container">
+            <div class="row">
+                <div class="leftCol hidden-xs hidden-sm hidden-md col-lg-4">
+                    <div class="registerImgDiv">
+                        <img src="resources/assets/register-Icon.png" width="200" height="200" alt="register icon">
+                    </div><!--/registerImgDiv-->
+                </div><!--/leftCol-->
+                <div class="topAboutRight rightCol col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                    <div class="mainBanner">
+                       <div class="subsMsg">
+                           <h5>my account / update my profile</h5>
+                           <h1 class="subsBannerHeader">
+                                Subscribe to MCQBank!
+                           </h1>
+                           <p class="subsP hidden-xs">
+                               Just enter your details below and we’ll get you set up on MCQbank in one
+                               easy step! After creating an account, you can log in and select your
+                               subscription method to get full access to the site, or just run sample tests.
+                           </p>
+                       </div><!--/subsMsg-->
+                    </div><!--/mainBanner-->
+                </div><!--/rightCol-->
+            </div><!--/row-->
+        </section><!--/topMain-->
+        <section id="bottomMain" class="container">
+           <div class="row">
+               <div class="aboutRight rightCol col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                       <form id="subscribeForm" method="post" class="form-horizontal" action="" novalidate="novalidate">
+                           <h3>Your Personal Information</h3>
+                           <div class="form-group">
+                               <label class="col-sm-4 control-label" for="firstname1">First name</label>
+                               <div class="col-md-6">
+                                   <input type="text" class="infoInput form-control" id="firstname1" name="firstname1" placeholder="First name">
+                               </div>
+                               <label class="col-sm-4 control-label" for="lastname1">Last name</label>
+                               <div class="col-md-6">
+                                    <input type="text" class="infoInput form-control" id="lastname1" name="lastname1" placeholder="Last name">
+                               </div>
+                      <!--     </div>&lt;!&ndash;/form-group&ndash;&gt;
+                           <div class="form-group">-->
+                               <label class="col-sm-4 control-label" for="email1">Email</label>
+                               <div class="col-md-6">
+                                   <input type="text" class="form-control infoInput" id="email1" name="email1" placeholder="Email">
+                               </div>
+                               <label class="col-sm-4 control-label" for="confirm_email1">Email</label>
+                               <div class="col-md-6">
+                                   <input type="text" class="form-control infoInput" id="confirm_email1" name="confirm_email1" placeholder="Confirm Email">
+                               </div>
+                         <!--  </div>&lt;!&ndash;/for-group&ndash;&gt;
+                           <div class="form-group">-->
+                               <label class="col-sm-4 control-label" for="password1">Password</label>
+                               <div class="col-md-6">
+                                   <input type="password" class="form-control infoInput" id="password1" name="password1" placeholder="Password">
+                               </div>
+                               <label class="col-sm-4 control-label" for="confirm_password1">Confirm password</label>
+                               <div class="col-md-6">
+                                   <input type="password" class="form-control infoInput" id="confirm_password1" name="confirm_password1" placeholder="Confirm password">
+                               </div>
+                         <!--  </div>&lt;!&ndash;/form-group&ndash;&gt;
+                           <div class="form-group">-->
+                               <label class="col-sm-4 control-label" for="firstname1">House Number</label>
+                               <div class="col-md-6">
+                                   <input type="text" class="infoInput form-control" id="houseNum" name="houseNum" placeholder="House Number">
+                               </div>
+                               <label class="col-sm-4 control-label" for="lastname1">Street Name</label>
+                               <div class="col-md-6">
+                                   <input type="text" class="infoInput form-control" id="streetName" name="streetName" placeholder="Street Name">
+                               </div>
+                        <!--   </div>&lt;!&ndash;/form-group&ndash;&gt;
+                           <div class="form-group">-->
+                               <label class="col-sm-4 control-label" for="townName">Town Name</label>
+                               <div class="col-md-6">
+                                   <input type="text" class="infoInput form-control" id="townName" name="townName" placeholder="Town or City">
+                               </div>
+                               <label class="col-sm-4 control-label" for="countyName">County Name</label>
+                               <div class="col-md-6">
+                                   <input type="text" class="infoInput form-control" id="countyName" name="countyName" placeholder="County Name">
+                               </div>
+                          <!-- </div>&lt;!&ndash;/form-group&ndash;&gt;
+                           <div class="form-group">-->
+                               <label class="col-sm-4 control-label" for="postCode1">Post Code</label>
+                               <div class="col-md-3">
+                                   <input type="text" class="infoInput form-control" id="postCode1" name="postCode1" placeholder="Post Code">
+                               </div>
+                               <label class="col-sm-4 control-label" for="country">Country</label>
+                               <div class="col-md-5">
+                                   <input type="text" class="infoInput form-control" id="country" name="country" placeholder="Country">
+                               </div>
+                               <label class="col-sm-4 control-label" for="telNumber">Telephone Number</label>
+                               <div class="col-md-4">
+                                   <input type="text" class="infoInput form-control" id="telNumber" name="telNumber" placeholder="Telephone Number">
+                               </div>
+
+                               <div class="col-md-6">
+                                   <div class="checkboxDiv">
+                                       <label class="col-sm-4 control-label" for="agree1">checkbox</label>
+                                           <input type="checkbox" id="agree1" name="agree1" value="agree" required>I have read and agree to <a href="#">MCQBank's Terms and Conditions</a>
+                                   </div><!--/checkbox-->
+                               </div>
+                           </div>
+                            <div class="row textRow">
+                               <div class="textDiv col-md-8">
+                                   <textarea class="infoInput subsInput form-control" form="subscribeForm" rows="4" cols="40">
+
+                                   </textarea>
+                                   <input type="text" class="infoInput form-control" id="validationInput12" placeholder="Type the text" value="" required>
+                               </div><!--/textDiv-->
+                               <div class="noRobotDiv col-md-4">
+                                   <div class="recapIcons">
+                                       <div class="refresh">
+                                           <img src="resources/assets/refresh-captcha.svg" width="30" height="30" alt="refresh">
+                                       </div>
+                                       <div class="volume">
+                                           <img src="resources/assets/volume-captcha.svg" width="30" height="30" alt="volume">
+                                       </div>
+                                       <div class="question">
+                                           <img src="resources/assets/question-captcha.svg" width="30" height="30" alt="question">
+                                       </div>
+                                   </div><!--/recapIcons-->
+                                   <div class="recaptchaDiv">
+                                       <img src="resources/assets/recaptcha_logo_grey.png" alt="recaptcha image" width="150" height="75">
+                                       <p>Privacy & Terms</p>
+                                   </div><!--/recaptchaDiv-->
+                               </div><!--/noRobotDiv-->
+                            </div><!--/textRow-->
+                            <div class="form-group">
+                                   <div class="submitDiv col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                       <button class="btn" name="signup1" type="submit" value="Sign up">Submit</button>
+                                   </div><!--/submitDiv-->
+                            </div><!--/form-group-->
+                   </form>
+
+                   <!--<form class="cmxform" id="signupForm" method="get" action="" novalidate="novalidate">
+                       <fieldset>
+                           <legend>Validating a complete form</legend>
+
+
+                               &lt;!&ndash;<label for="username">Username</label>&ndash;&gt;
+                               <input id="username" name="username" type="text" aria-required="true" class="error">
+                               <label id="username-error" class="error" for="username">Please enter a username</label>
+                           </p>
+                           <p>
+                               <label for="password">Password</label>
+
+                           </p>
+                           <p>
+                               <label for="confirm_password">Confirm password</label>
+
+                           </p>
+                           <p>
+
+                           </p>
+                           <p>
+                               <label for="email">Confirm Email</label>
+
+                           </p>
+                           <p>
+                               <label for="agree">Please agree to our policy</label>
+
+                           </p>
+                           <p>
+                               <input class="submit" type="submit" value="Submit">
+                           </p>
+                       </fieldset>
+                   </form>-->
+               </div><!--/rightCol-->
+           </div><!--/row-->
+        </section><!--/bottomMain-->
+    </main>
+    <footer>
+       <div id="footerDiv" class="container">
+            <div id="copyRight" class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                &copy; 2017 MCQBank <span id="copyrightSpan">web design company DotPeak digital agency</span>
+            </div><!--/copyRight-->
+            <div id="legal" class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <span><a href="#">terms & conditions</a></span>
+                <span><a href="#">| privacy policy</a></span>
+                <span><a href="#">| share this page</a></span>
+            </div><!--/legal-->
+       </div><!--/footerDiv-->
+        <a href="#" class="scrollToTop" style="display: inline;"></a>
+    </footer>
+</div><!--/wrapper-->
+
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="bower_components/jquery-validation/dist/additional-methods.min.js"></script>
+
+
+<script src="js/script.js"></script>
+<script src="js/subscribe.js"></script>
+<script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
+
+
+</body>
+</html>
+
+                               

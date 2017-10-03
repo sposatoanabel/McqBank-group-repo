@@ -1,0 +1,161 @@
+/***************************** TOP MAIN ********************/
+
+.leftCol{
+    border:none !important;
+}
+
+.registerImgDiv{
+   margin-top: 50px;
+}
+
+
+/****************************** BOTTOM MAIN ****************/
+.form-group label{
+    display: none !important;
+}
+.form-horizontal .has-feedback .form-control-feedback {
+    right: 15px;
+    top: 38px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .form-horizontal .has-feedback .form-control-feedback {
+        right: 15px;
+        top: 15px;
+    }
+}
+.checkbox span{
+    right: 15px;
+    top: 0 !important;
+    z-index: 30;
+}
+
+.has-error em{
+    margin:-10px !important;
+    position: absolute;
+}
+
+
+.submitDiv button{
+    height: 60px;
+    width:100%;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #5CD3B4;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#topMain{
+    background-color:#5bc0de;
+}
+
+
+.subsBannerHeader{
+    color: #ffffff;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.subsMsg{
+    padding:50px 65px;
+}
+
+.subsMsg .subsP, h5{
+    color: #ffffff;
+    text-align: justify;
+}
+
+.subsMsg h5 {
+    text-transform: capitalize;
+}
+
+form{
+    margin:40px 30px;
+    border: 1px solid #d8e8e5;
+    padding:40px;
+}
+
+form h3{
+    margin:40px auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+.infoInput{
+    width:100% !important;
+    margin:25px auto !important;
+}
+
+@media screen and (max-width: 992px){
+    .infoInput{
+        margin:45px auto !important;
+    }
+    .has-error em{
+        padding-left: 0 !important;
+        margin: -35px 25px !important;
+        z-index: 20;
+    }
+}
+
+.has-error em{
+    padding-left: 20px;
+    margin: -10px 35px;
+    z-index: 20;
+}
+
+@media screen and (max-width: 768px) {
+    .checkbox span {
+        right: -50px !important
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .checkboxDiv{
+        font-size: 10px !important;
+    }
+}
+
+
+
+@media screen and (width: 768px) and (width:320px){
+    .checkboxDiv span{
+        right: 15px !important;
+        top: -3px !important;
+    }
+}
+
+.checkboxDiv{
+    margin-top: 42px;
+}
+
+.checkbox{
+    margin-left: 20px;
+}
+
+.checkbox a{
+    text-decoration: none;
+    color:#5bc0de;
+}
+
+.customLabel{
+    padding:15px;
+}
+
+.noRobotDiv{
+    height: 180px;
+    margin:25px auto;
+    display:flex;
+    justify-content:space-around;
+    border: 1px solid #d8e8e5;
+    padding: 30px 0;
+}
+

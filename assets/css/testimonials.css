@@ -1,0 +1,146 @@
+/**************************** TOP LEFT **************************/
+
+
+
+
+
+/**************************** TOP RIGHT **************************/
+
+#bannerHeader{
+    width: 420px;
+    text-transform: none !important;
+}
+
+
+/**************************** BOTTOM **************************/
+
+.introContent{
+    margin:-20px auto;
+}
+
+.introContent .lead{
+    text-align: justify;
+}
+
+
+.testimonialDiv{
+    border: 1px solid #5bc0de;
+    border-radius: 4px;
+    margin: 40px auto;
+    padding:0;
+}
+
+.testimonialDiv p{
+    margin:0;
+}
+.testimonialAuthor{
+    color:#ffffff;
+    background-color:#5bc0de;
+    padding-bottom: 3px;
+}
+
+.testimonialAuthor h4,p{
+    text-align: center;
+    margin:6px;
+}
+
+.testimonialPar{
+    padding:40px 90px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 576px){
+
+    .testimonialPar{
+        padding:20px 45px;
+    }
+    .testimonialDiv{
+        margin:70px auto;
+    }
+    .testIcon i{
+        margin: 15px auto -10px;
+    }
+}
+
+.testIcon{
+    margin-top: -41px;
+    margin-left: -91px;
+    width:60px;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+}
+.testIcon i{
+    color: #5bc0de;
+    font-size: 3em;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+@media screen and (max-width: 1200px){
+    .testIcon{
+        margin:-80px auto 20px !important;
+        background-color: white;
+    }
+    .testIcon i{
+        padding: 10px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .testIcon{
+        margin:-80px auto 20px !important;
+        background-color: white;
+    }
+
+    .testIcon i{
+        padding: 10px;
+        margin-top: 25px;
+    }
+
+}
+.topAuthorDiv{
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+.playIcon{
+    font-size: 30px;
+    margin-left: -17px;
+    margin-top: 70px;
+}
+
+.testAuthImg{
+    width:70px;
+    margin: 30px auto;
+}
+
+.testHeader{
+    text-align: center;
+    color: #5bc0de;
+}
+
+.testHeader span{
+    color: #6E7C7C;
+}
+
+#moreTestimonials{
+    width:215px;
+    margin: 20px auto;
+    padding:20px;
+    border-radius: 5px;
+}
+
+#viewMoreBtn{
+    border: none;
+    outline:none;
+    padding:15px;
+    border-radius: 4px;
+    color:#ffffff;
+    background-color: #5CD3B4;
+    text-align: center;
+    font-size: 16px;
+    width:200px;
+    margin:10px auto;
+}

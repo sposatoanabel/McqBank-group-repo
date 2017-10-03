@@ -1,0 +1,73 @@
+/**************************** TOP LEFT**************************/
+
+
+#userDiv{
+    margin-top: 42px;
+}
+
+#loggedIn, #accountValid{
+    margin:40px auto;
+}
+
+#userDiv h3{
+    color:#2fb1c7;
+    font-weight: 500;
+}
+
+#welcomeDiv h3{
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+
+#lastLog, #validDate span{
+    font-weight: 700;
+}
+
+#lastLog, #validDate{
+    margin:20px auto;
+}
+/**************************** TOP RIGHT **************************/
+
+#bannerHeader{
+    width: 420px;
+    text-transform: none !important;
+}
+
+/**************************** BOTTOM LEFT **************************/
+
+#teamPicDiv{
+    margin-top:40px;
+    padding:0;
+}
+
+#teamPic{
+    width:100%;
+}
+
+
+/**************************** BOTTOM RIGHT **************************/
+
+@media screen and (max-width: 1200px) {
+    .introContentMedium h3, p.lead{
+        font-weight: 700 !important;
+    }
+}
+
+
+.introContent p:nth-child(2){
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+
+}
+
+.introContent a, .infoMore a{
+    text-decoration: none;
+    color:#2fb1c7;
+}
+
+.aboutRight{
+    padding-left: 0;
+}
+
+/********************************************************************/

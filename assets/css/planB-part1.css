@@ -1,0 +1,59 @@
+.introUl, .whyUl{
+    font-size: 24px;
+    color:#2fb1c7;
+}
+
+
+.introUl  li p, .whyUl li p, .insideUl li{
+    text-align: justify;
+    font-size: 14px;!important;
+    color: #6E7C7C; !important;
+    font-family: 'Open Sans', sans-serif; !important;
+}
+
+span{
+    font-weight: 600;!important;
+}
+
+
+.insideUl{
+    margin-left: -10px;
+    list-style: none;
+    line-height: 1em;
+}
+
+.dateUl{
+    list-style: none;
+    padding-left: 0;
+    line-height: 2em;
+}
+
+.dateP{
+    color:#2fb1c7;
+}
+
+.introUl{
+    padding:20px;
+}
+
+.whyUl{
+    padding-left: 0;
+    list-style: none;
+}
+
+
+.whyUl li{
+    display: flex;
+    justify-content:inherit;
+}
+
+.whyUl li p{
+    margin-left: 20px;
+    line-height: 1.4em;
+
+}
+
+
+footer span{
+    font-weight: inherit; !important;
+}
