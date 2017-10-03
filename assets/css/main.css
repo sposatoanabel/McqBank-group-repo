@@ -1,0 +1,969 @@
+/*############################################
+
+                    GENERAL
+
+#############################################*/
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    color: #6E7C7C;
+    font-size: 16px;
+}
+
+p {
+    margin: 0 0 23px;
+    line-height: 1.5rem;
+}
+
+.breadcrumb{
+    background-color: transparent;
+    text-align: center;
+}
+
+
+/* ---------------------TITLES---------------------- */
+
+
+h1{
+    color: #ffffff;
+    font-size: 48px;
+}
+
+
+h3 {
+    color: #4A4A4A;
+    font-weight: 500;
+}
+
+
+/* ---------------------BUTTONS---------------------- */
+
+
+.btn-primary {
+    background-color: #2fb1c7;
+    border: 1px solid #2895a9;
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+    background-color: #2fb1c7;
+    border: 1px solid #2895a9;
+    opacity: 0.8;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    color: #fff;
+    background-color: #2fb1c7;
+    border-color: #2895a9;
+}
+
+.btn-success {
+    background-color: #5cd3b5;
+    border: 1px solid #4cae4c;
+}
+
+.btn-success:hover{
+    opacity: 0.9;
+    background-color: #5cd3b5;
+}
+
+
+/*############################################
+
+                    HEADER
+
+#############################################*/
+
+
+/* ---------------- TOP NAV ----------------- */
+
+
+#topNav .nav > li > a {
+    padding: 20px 15px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border: none;
+}
+
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+    z-index: 999;
+}
+
+.navbar .container .navbar-header {
+    background-color: white;
+}
+
+
+#bottomNav {
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+    text-transform: uppercase;
+}
+
+
+/* --------------------- BOTTOM NAV ---------------------- */
+
+#bottomNav {
+    background-color: #ffffff;
+    z-index: 500;
+}
+
+/* LOGO */
+
+.navbar-brand {
+    padding: 5px;
+}
+
+
+#btnLogIn {
+    display: none;
+}
+
+
+#myAccountDropdown {
+    display: none;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+
+/*############################################
+
+                   MAIN
+
+#############################################*/
+
+
+/*---------------------------------------------
+
+              TOP MAIN SECTION
+
+----------------------------------------------*/
+
+
+
+/*-------------------Left Col ----------------*/
+
+#topMain {
+    margin-top: 30px;
+}
+
+#topMain .leftCol {
+    border-radius: 4px;
+    background: #ffffff;
+    border: solid 1px #d8e8e5;
+    padding: 18px;
+}
+
+#mbrDiv h3 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+input[type=text]#usrName,
+input[type=text]#passWord {
+    background-color: #d8e8e5;
+    opacity: 0.75;
+    border: 1px solid #d8e8e5;
+    padding: 18px 15px;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 20px
+}
+
+input[type=text]#usrName {
+    margin-top: 16px;
+}
+
+#loginDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: 0 auto 9px auto;
+    padding-bottom: 0;
+}
+
+
+#loginDiv .btn-success {
+    background-color: #5cd3b5;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    /* -webkit-transition: all 0.4s; */
+    -o-transition: all 0.4s;
+
+}
+
+.btnLogin {
+    width: 45%;
+}
+
+.btnLogin a{
+    display: none;
+}
+
+.loginForgotPass span {
+    display: none;
+}
+
+#signUpTextSpan {
+    text-align: center;
+}
+
+#signUpSpan {
+    width: 30px;
+    float: right;
+}
+
+.btn-primary {
+    border: 1px solid #2895a9;
+}
+
+#signUp .btn-primary {
+    -o-transition: all 0.4s;
+    padding: 20px 45px;
+    width: 100%;
+    margin: 11px 0;
+    font-size: 1.2rem;
+}
+
+#signUpBtn span:before {
+    border-left: 2px solid #ffffff;
+    padding: 25px;
+    width: 30px;
+}
+
+
+#sample {
+    height: 50px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+#sampleMenu {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: solid 1px #d8e8e5;
+    border-radius: 4px;
+    padding-left: 15px;
+    background-color: #ffffff;
+}
+
+
+
+/*-------------------Right Col ----------------*/
+
+
+#bannerHeader {
+    color: #ffffff;
+    position: absolute;
+    bottom: 170px;
+    left: 446px;
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 3.5rem;
+}
+
+.mainBanner img {
+    width: 100%;
+    position: relative;
+}
+
+#bannerHeader span {
+    display: block;
+}
+
+#bannerMd, #bannerMd2, #bannerSm {
+    display: none;
+}
+
+#bannerLg {
+    display: block;
+}
+
+
+/*----------------------------------------------------------
+
+                   BOTTOM MAIN SECTION
+
+-----------------------------------------------------------*/
+
+
+/*-------------------Left Col ----------------*/
+
+
+#bottomMain {
+    margin-top: 25px;
+}
+
+#bottomMain .leftCol a{
+    color: #30B2CB;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+#bottomMain .leftCol h4{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+#bottomMain .leftCol a:hover, #bottomMain .leftCol a:active {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+#bottomMain .planBox {
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 2px;
+    border-top: solid 1px #d8e8e5;
+    border-right: solid 1px #d8e8e5;
+    border-bottom: solid 1px #d8e8e5;
+}
+
+#planBox1 p,
+#planBox2 p,
+#planBox3 p,
+#planBox4 p {
+    font-size: 0.9em;
+    margin: 0 0 10px;
+}
+
+#planBox1,
+#planBox2,
+#planBox3,
+#planBox4 {
+    border-left: 20px solid;
+
+}
+
+
+.planBox h4 span {
+    padding-top: 10px;
+    border-bottom: 3px solid;
+    padding-bottom: 14px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#planBox1 {
+    border-color: #30B2CB;
+}
+
+#planBox2 {
+    border-color: #1F87B9;
+}
+
+#planBox3 {
+    border-color: #355C9A;
+}
+
+#planBox4 {
+    border-color: #27406B;
+}
+
+#planBox1 h4 {
+    color: #30B2CB;
+}
+
+#planBox2 h4 {
+    color: #1F87B9;
+}
+
+#planBox3 h4 {
+    color: #355C9A;
+}
+
+#planBox4 h4 {
+    color: #27406B;
+}
+
+#bottomMain .leftCol {
+    padding: 0;
+}
+
+#priceDiv.planBox {
+    border: solid 4px #30B2CB;
+}
+
+#priceDiv h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #4A4A4A;
+    text-transform: capitalize;
+}
+
+#priceDiv p {
+    text-align: center;
+}
+
+#priceDiv #priceP2 {
+    font-size: 2rem;
+    color: #30B2CB;
+}
+
+
+/*------------------- Right Col ----------------*/
+
+.introDiv {
+    margin-bottom: 10px;
+}
+
+#introContent h3 {
+    margin-top: 7px;
+    margin-bottom: 0;
+
+}
+
+
+#addNews, #addTimer {
+    border: solid 1px #d8e8e5;
+    border-radius: 4px;
+    padding: 0;
+    margin: 0 5px;
+}
+
+.infoImg {
+     height: 140px;
+ }
+
+.basicIcon {
+    display: block;
+    margin: 14px auto 30px auto;
+}
+
+.infoImgBg {
+    background-color: rgba(0, 179, 238, .5);
+    height: 174px;
+    position: relative;
+    bottom: 172px;
+    left: 0;
+    z-index: 20;
+    margin-bottom: -211px;
+}
+
+.infoIcon {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 20%;
+    position: relative;
+    bottom: 80px;
+    left: 160px;
+    z-index: 30;
+}
+
+.addInfo a{
+    color: #30B2CB;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.addInfo a:hover{
+    opacity: 0.5;
+    text-decoration: none;
+}
+.newsDiv {
+    padding: 20px;
+}
+
+.newsDiv h4 {
+    color: #4A4A4A;
+    font-size: 1.2rem;
+    margin-bottom: 38px;
+}
+
+
+.more {
+    display: none;
+}
+
+.newsDiv ul {
+    list-style: disc;
+    color: #30B2CB;
+}
+
+
+.addInfo ul li p {
+    color: #6E7C7C;
+    margin: 5px;
+    font-size: .9em;
+    line-height: 1.3em;
+}
+
+
+#countdownDiv {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    color: #4a4a4a;
+}
+
+#nextExam {
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#remain {
+    text-align: center;
+}
+
+
+/*----------------------------------------------------------
+
+                   FOOTER SECTION
+
+-----------------------------------------------------------*/
+
+footer {
+    background-color: #EEEEEE;
+    padding: 25px 0;
+    color: #4A4A4A;
+    margin-top: 18px;
+}
+
+#copyrightSpan {
+    text-align: left;
+}
+
+#legal {
+    text-align: right;
+}
+
+#legal a {
+    color: #4A4A4A;
+}
+
+#legal a:hover, #legal a:visited, #legal a:active {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+#footerDiv {
+    font-size: 0.9rem;
+}
+
+#legal .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #30b2cb;
+    border: #c1c1c1 solid 1px;
+    background: none;
+    font-size: 0.8rem;
+    padding: 7px;
+}
+
+#legal .btn-group > .btn + .dropdown-toggle {
+    padding-right: 8px;
+    padding-left: 8px;
+    background: #eeeeee;
+    color: #30b2cb;
+    font-size: 14px;
+    border: #c1c1c1 solid 1px;
+}
+
+#legal .btn-group {
+    padding-left: 29px;
+}
+
+
+
+
+
+
+/*----------------------------------------------------------
+
+                   Media queries
+
+-----------------------------------------------------------*/
+
+
+
+@media screen and (min-width: 1200px) {
+
+    /*TOP MAIN RIGHT COL */
+
+    #bannerLg {
+        display: block;
+    }
+
+    #bannerL {
+        display: none;
+    }
+
+    /*BOTTOM MAIN RIGHT COL */
+
+    #addNews, #addTimer {
+        width: 48%;
+        height: 590px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    /*TOP MAIN LEFT COL */
+
+    #topMain .leftCol {
+        padding: 24px;
+    }
+
+    /*TOP MAIN RIGHT COL */
+    #bannerL {
+        display: block;
+    }
+
+    #bannerLg {
+        display: none;
+    }
+
+    /*BOTTOM MAIN LEFT COL */
+
+    #bottomMain .planBox {
+        width: 48%;
+        margin: 9px !important;
+        height: 200px;
+        padding: 16px;
+    }
+
+    /*BOTTOM MAIN RIGHT COL */
+
+    .addInfo ul li,
+    .addInfo ul li a {
+        color: #2fb1c7;
+        line-height: 1.5em;
+        list-style: none;
+    }
+
+    .addInfo ul li a:hover {
+        color: #2fb1c7;
+        line-height: 1.5em;
+        opacity: 0.8;
+        text-decoration: none;
+    }
+
+    #addNews, #addTimer {
+        width: 48%;
+        height: 400px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #addNews {
+        margin-right: 1.3%;
+    }
+
+    #addTimer {
+        margin-left: 1.3%;
+    }
+
+    #nextExam {
+        margin-top: 40px;
+    }
+
+    .newsDiv h4 {
+        margin-bottom: 29px;
+    }
+
+    .newsDiv ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    .introDiv {
+        margin: 45px 0;
+        padding: 0;
+    }
+
+    #readMoreBtn {
+        color: #2fb1c7;
+        background: none;
+        border: none;
+        padding: 0;
+    }
+
+
+    /* FOOTER */
+
+    #footerDiv {
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+
+    /* HEADER */
+
+    .navbar-brand {
+        padding: 12px 0 12px;
+    }
+
+    .navbar-brand > img {
+        display: block;
+        width: 126px;
+        height: auto;
+    }
+
+    .nav > li > a {
+        padding: 15px 15px;
+        border-bottom: 1px solid #eeeeee;
+        font-size: 0.8rem;
+    }
+
+    .navbar .container > .navbar-collapse {
+        background-color: #ffffff;
+    }
+
+    /*TOP MAIN LEFT COL */
+
+    #topMain .leftCol {
+        padding: 16px;
+        margin-left: 0;
+    }
+
+    /*TOP MAIN RIGHT COL */
+
+    .rightCol {
+        padding-right: 15px;
+        padding-left: 0;
+    }
+
+    #bannerL {
+        display: none;
+    }
+
+    #bannerMd2 {
+        display: block;
+    }
+
+    .mainBanner{
+        padding-left: 15px;
+    }
+
+    /*BOTTOM MAIN LEFT COL */
+
+    #bottomMain {
+        margin-top: 0;
+        padding-left: 0;
+    }
+
+    #bottomMain .planBox {
+        width: 100%;
+        margin: 20px 0 !important;
+        height: 200px;
+        padding: 16px;
+    }
+
+    #bottomMain .leftCol {
+        padding: 15px;
+    }
+
+    #signUp .btn-primary {
+        padding: 20px 45px;
+    }
+
+    /*BOTTOM MAIN RIGHT COL */
+
+    .introDiv {
+        margin: 0;
+    }
+
+    #addNews, #addTimer {
+        width: 100%;
+        margin: 20px 0;
+
+    }
+
+    .addInfo .row{
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+
+    /* HEADER */
+
+    #topNav {
+        display: none;
+    }
+
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #555;
+        background: none;
+        border-color: #eeeeee;
+    }
+
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-default .navbar-nav>.active>a:hover{
+        color: #2fb1c7;
+        background-color: white;
+    }
+
+    #bottomNav {
+        top: 0;
+        z-index: 999;
+    }
+
+    .navbar .container ul {
+        margin: 127px 0 0 0;
+        padding: 0 23px;
+        width: 100%;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+    }
+
+    #btnSubscribe, #btnLogIn {
+        padding: 10px;
+    }
+
+
+    #topMain {
+        margin-top: 0;
+    }
+
+
+    /* TOP MAIN LEFT COL */
+
+    #topMain .leftCol {
+        padding: 40px;
+        margin: 15px;
+    }
+
+    #btnLogIn {
+        display: block;
+    }
+
+    .loginForgotPass a {
+        display: none;
+    }
+
+    .loginForgotPass span {
+        display: block;
+        padding: 18px 0;
+    }
+
+    #loginDiv {
+        margin: 0 auto 17px auto;;
+     }
+
+    .btnLogin a{
+        display: block;
+        color: #5cd3b5;
+        padding: 18px 0;
+        text-align: right;
+        font-weight: 600;
+    }
+
+    .btnLogin a:hover, .btnLogin a:focus {
+        text-decoration: none;
+        opacity: 0.8;
+    }
+
+    .btnLogin button{
+        display: none;
+    }
+
+    #sample {
+        margin-top: 33px;
+    }
+
+    /* TOP MAIN RIGHT COL */
+
+
+    #topMain .mainBanner img{
+        width: 100%;
+        position: relative;
+        padding-left: 0;
+    }
+
+    #bannerMd {
+        display: block;
+    }
+
+    #bannerLg, #bannerSm, #bannerMd2 {
+         display: none;
+     }
+
+    /* BOTTOM MAIN RIGHT COL */
+
+    #bottomMain .row {
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 460px) {
+    #topMain .leftCol {
+        padding: 24px;
+        margin: 35px 15px;
+    }
+
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #bottomMain.container {
+        padding: 0;
+    }
+
+    #topMain {
+        margin-top: 0;
+    }
+
+    #topMain .mainBanner img{
+        padding-left: 0;
+    }
+
+    #bottomMain .rightCol{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    #bannerMd, #bannerLg, #bannerMd2 {
+        display: none;
+    }
+
+    #bannerSm {
+        display: block;
+    }
+
+    #topMain .mainBanner img{
+        padding-left: 0;
+    }
+}
+
+

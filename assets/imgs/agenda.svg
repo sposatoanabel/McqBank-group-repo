@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="50px" viewBox="0 0 43 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>agenda</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-400.000000, -126.000000)">
+            <g transform="translate(321.000000, 126.000000)" id="agenda">
+                <g transform="translate(79.000000, 0.000000)">
+                    <g id="shapes">
+                        <path d="M4,7.5 C2.61928813,7.5 1.5,8.61928813 1.5,10 L1.5,46 C1.5,47.3807119 2.61928813,48.5 4,48.5 L39,48.5 C40.3807119,48.5 41.5,47.3807119 41.5,46 L41.5,10 C41.5,8.61928813 40.3807119,7.5 39,7.5 L4,7.5 Z" id="Rectangle-12" stroke="#30B2C8" stroke-width="3"></path>
+                        <path d="M3.5,15 L41,15" id="Line" stroke="#30B2C8" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M9,19 L14,19 L14,24 L9,24 L9,19 Z M19,19 L24,19 L24,24 L19,24 L19,19 Z M29,19 L34,19 L34,24 L29,24 L29,19 Z M9,29 L14,29 L14,34 L9,34 L9,29 Z M19,29 L24,29 L24,34 L19,34 L19,29 Z M29,29 L34,29 L34,34 L29,34 L29,29 Z M9,38 L14,38 L14,43 L9,43 L9,38 Z M19,38 L24,38 L24,43 L19,43 L19,38 Z M29,38 L34,38 L34,43 L29,43 L29,38 Z" id="Combined-Shape" fill="#30B2C8"></path>
+                        <rect id="Rectangle-13" fill="#30B2C8" x="10" y="0" width="4" height="12" rx="2"></rect>
+                        <rect id="Rectangle-13" fill="#30B2C8" x="30" y="0" width="4" height="12" rx="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
