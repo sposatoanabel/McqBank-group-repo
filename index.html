@@ -227,7 +227,7 @@
                                     that you will face in your exam.
                                 </p>
                             </div><!--/intro-->
-                            <div id="infoMore" class="more">
+                            <div class="infoMore more">
                                 <p class="text-justify">
                                     We constantly review our questions, update them or purge them depending on the
                                     feedback we receive which we take seriously.
@@ -244,7 +244,7 @@
                                     In 2016 we added materials for the GMC Fitness Tests of Competence.
                                 </p>
                             </div><!--/more-->
-                            <button id="readMoreBtn" class="btn-default readMore">Read More</button>
+                            <button class="readMoreBtn btn-default">Read More</button>
                         </div><!--/introContent-->
                     </div><!--/introDiv-->
 
@@ -294,7 +294,7 @@
                                         <div id="countdownDiv"></div>
                                         <div id="clock"></div>
                                         <p id="remain">days remaining</p>
-                                        <a id="nextExam">AGPT CAAKT - 22nd August 2017</a><!--/nextExam-->
+                                        <a id="nextExam">AGPT CAAKT - 30 November 2017</a><!--/nextExam-->
                                     </div><!--/newsDiv-->
                                 </div><!--/infoImg-->
                             </div>
@@ -342,13 +342,7 @@
 <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
 <script src="vendors/js/offcanvas/offcanvas.js"></script>
 <script src="assets/js/main.js"></script>
-<script type="text/javascript">
-    $("#countdownDiv")
-        .countdown("2018/01/01", function (event) {
-            $(this).text(
-                event.strftime('%D')
-            );
-        });
-</script>
+<script src="assets/js/script.js"></script>
+
 </body>
 </html>

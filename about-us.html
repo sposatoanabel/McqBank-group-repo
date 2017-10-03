@@ -14,6 +14,9 @@
     <!-- bootstrap core css -->
 
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- fontawesome-->
+    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css"/>
+
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/about-us.css">
 
@@ -97,7 +100,7 @@
     <main>
         <section id="topMain" class="container">
             <div class="row">
-                <div class="topAboutRight rightCol col-xs-12 col-sm-6 col-sm-push-6 col-md-6 col-md-push-6 col-lg-9 col-lg-push-3">
+                <div class="topAboutRight rightCol col-xs-12 col-sm-6 col-sm-push-6 col-md-6 col-md-push-6 col-lg-8 col-lg-push-4">
                     <div class="mainBanner">
                         <img id="bannerLg" src="assets/imgs/banner-desktop.png" width="780" height="470" alt=""
                              class="img-responsive">
@@ -113,7 +116,7 @@
                     </div><!--/mainBanner-->
                 </div><!--/rightCol-->
 
-                <div class="topAboutLeft leftCol col-xs-12 col-sm-6 col-sm-pull-6 col-md-6 col-md-pull-6 col-lg-3 col-lg-pull-9">
+                <div class="topAboutLeft leftCol col-xs-12 col-sm-6 col-sm-pull-6 col-md-6 col-md-pull-6 col-lg-4 col-lg-pull-8">
                     <div id="welcomeDiv">
                         <h3>Welcome</h3>
                        <div id="userDiv">
@@ -191,7 +194,7 @@
                                       To contact us please email <a href="mailto:help@mcqbank.co.uk">help@mcqbank.co.uk</a>
                               </p>
                               </div><!--/more-->
-                           <button class="readMoreBtn" class="btn-default readMore">read more... </button>
+                           <button class="readMoreBtn btn-default readMore">read more... </button>
                        </div><!--/introContent-->
                    </div><!--/introDiv-->
                </div><!--/rightCol-->
@@ -199,26 +202,43 @@
         </section><!--/bottomMain-->
     </main>
     <footer>
-       <div id="footerDiv" class="container">
+        <div id="footerDiv" class="container">
             <div id="copyRight" class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                &copy; 2017 MCQBank <span id="copyrightSpan">web design company DotPeak digital agency</span>
+                &copy; 2017 MCQBank <span id="copyrightSpan"
+                                          class="hidden-xs">web design company DotPeak digital agency</span>
             </div><!--/copyRight-->
-            <div id="legal" class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <span><a href="#">terms & conditions</a></span>
-                <span><a href="#">| privacy policy</a></span>
-                <span><a href="#">| share this page</a></span>
+            <div id="legal" class="hidden-xs hidden-sm hidden-md col-lg-6">
+                <span><a href="#">Terms & conditions</a></span>
+                <span><a href="#">  | Privacy policy  </a></span>
+                <div class="btn-group dropup">
+                    <button type="button" class="btn btn-secondary">
+                        Share this page
+                    </button>
+                    <button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href=""><span class=""></span></a></li>
+                        <li><a href=""><span class="fa fa-facebook"></span></a></li>
+                        <li><a href=""><span class="fa fa-twitter"></span></a></li>
+                        <li><a href=""><span class="fa fa-google-plus"></span></a></li>
+                        <li><a href=""><span class="fa fa-linkedin"></span></a></li>
+                        <li><a href=""><span class="fa fa-pinterest"></span></a></li>
+                        <li><a href=""><span class="fa fa-tumblr"></span></a></li>
+                    </ul>
+                </div>
             </div><!--/legal-->
-       </div><!--/footerDiv-->
-       <a href="#" class="scrollToTop" style="display: inline;"></a>
+        </div>
     </footer>
 </div><!--/wrapper-->
 
-
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-<script src="js/script.js"></script>
 <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
+<script src="vendors/js/offcanvas/offcanvas.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/main.js"></script>
+
 
 
 </body>

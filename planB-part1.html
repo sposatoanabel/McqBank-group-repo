@@ -13,104 +13,118 @@
     <!-- bootstrap core css -->
 
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/about-us.css">
-    <link rel="stylesheet" href="css/planB-part1.css">
+
+    <!-- bootstrap code css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- offcanvas-->
+    <link rel="stylesheet" href="vendors/css/offcanvas/offcanvas.css"/>
+    <!-- fontawesome-->
+    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css"/>
+    <!--main css-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/about-us.css">
+    <link rel="stylesheet" href="assets/css/planB-part1.css">
 
 </head>
 <body>
 <div id="wrapper">
     <header>
-        <nav id="topNav" class="nav navbar navbar-default hidden-sm hidden-xs">
+        <div class="navbar navbar-default navbar-static-top" id="topNav">
             <div class="container">
-                <ul id="logNav" class="nav navbar-nav navbar-right">
-                    <li id="userBtn" class="dropdown">
-                        <a  href="#" class="dropdown-toggle" data-toggle="dropdown">Hamid <b id="userChevron" class="glyphicon glyphicon-chevron-down"></b></a>
-                        <ul class="dropdown-menu logList">
-                            <li><a href="#">Start a new test - Stage 2</a></li>
-                            <li><a href="#">Start a new test - Stage 3</a></li>
+                <ul id="logNav" class="nav navbar-header navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Anabel
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu ">
+                            <li><a href="#">Start a new test-Stage 2</a></li>
+                            <li><a href="#">Start a new test-Stage 3</a></li>
                             <li><a href="#">Test History</a></li>
                             <li><a href="#">Performance</a></li>
                             <li><a href="#">Continue your unfinished test</a></li>
-                            <li><a href="#">My revision notes</a></li>
+                            <li><a href="#">My revision Notes</a></li>
                             <li><a href="#">Manage Subscriptions</a></li>
-                            <li><a href="#">Update profile</a></li>
-                            <hr>
-                            <li class="dropdown-item" id="logOut"><a href="#">Log Out</a></li>
-                        </ul><!--/logList-->
-                    </li><!--/dropdown-->
-            </ul><!--/ul-logNav-->
-          </div><!--/container-->
-        </nav><!--/topNav-->
-
-        <div id="bottomNav" class="container nav navbar-default">
-            <div class="navbar-header">
-                <div id="toggleBtn" data-toggle="collapse" data-target=".navbar-collapse"
-                        class="navbar-toggle"><span id="menuSpan" class="hidden-xs">MENU </span>
-                <div id="burgerSpan">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div><!--/burgerSpan-->
-                </div><!--/toggleBtn-->
-                <div id="mcqLogo">
-                    <h4><a href="index.html"><img class="img-responsive" src="resources/assets/mcq_logo.jpg" alt="MCQ Bank logo" width="218" height="51"></a></h4>
-                </div><!--/mcqLogo-->
-            </div><!--/navbar header-->
-
-            <div id="menuNav" class="navbar-collapse collapse">
-                   <ul  id="mainUl" class="nav navbar navbar-nav navbar-right">
-                    <li class=""><a class="page-scroll" href="index.html">Home</a></li>
-                    <li  id="myAccountBtn" class="dropdown">
-                            <a class="page-scroll dropdown-toggle" data-toggle="dropdown" href="#myAccount">My Account <b class="glyphicon glyphicon-chevron-down"></b></a>
-
-                        <ul id="myAccountUl" class="dropdown-menu">
-                            <li><a class="page-scroll" href="#">Update profile</a></li>
-                            <li><a class="page-scroll" href="#">Manage my Account</a></li>
-                            <li><a class="page-scroll" href="#">Settings</a></li>
+                            <li><a href="#">Update your profile</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Log out</a></li>
                         </ul>
                     </li>
-                    <li id="examInfoBtn" class="dropdown">
-                        <a class="page-scroll dropdown-toggle active
-" data-toggle="dropdown" href="#examInfo">Exam Info <b class="glyphicon glyphicon-chevron-down"></b></a>
-
-                        <ul id="examInfoUl" class="dropdown-menu">
-                            <li><a class="page-scroll" href="#">GT ST Entry</a></li>
-                            <li><a class="page-scroll active" href="#">Plan B: Part 1</a></li>
-                            <li><a class="page-scroll" href="#">SJT for Medical Students</a></li>
-                            <li><a class="page-scroll" href="#">GP I&R Scheme</a></li>
-                            <li><a class="page-scroll" href="#">Australian Exams</a></li>
-                            <li><a class="page-scroll" href="#">GMC Fitness to Practice</a></li>
-                            <li><a class="page-scroll" href="#">Multi-Speciality Recruitment</a></li>
-                        </ul>
-                    </li>
-                    <li class=""><a class="page-scroll" href="testimonials.html">Testimonials</a></li>
-                    <li class=""><a class="page-scroll" href="about-us.html">About Us</a></li>
-                    <li id="subscribeLi" class=""><a id="subscribeBtn" class="page-scroll" href="subscribe.html"><button class="btn btn-info">Subscribe</button></a></li>
                 </ul>
+            </div>
+        </div>
+        <!--/ #topNav-->
 
-            </div><!--/menuNav-->
-        </div><!--/bottomNav-->
+        <nav class="navbar navbar-default" role="navigation" id="bottomNav">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <div id="nav-icon1">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <a class="navbar-brand" href="#"><img src="assets/imgs/mcq_logo.jpg" width="160" height="37" alt=""></a>
+                </div>
+                <div id="slidemenu">
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="testimonials.html">Testimonial</a></li>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<b
+                                class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Update Profile</a></li>
+                                <li><a href="#">Manage my account</a></li>
+                                <li><a href="#">Settings</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Exam Info <b
+                                class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">GT ST Entry</a></li>
+                                <li><a href="planB-part1.html">Plan B: Part 1</a></li>
+                                <li><a href="#">SJT for Medical Students</a></li>
+                                <li><a href="#">GP I&R Scheme</a></li>
+                                <li><a href="#">Australian Exams</a></li>
+                                <li><a href="#">GMC Fitness to Practice</a></li>
+                                <li><a href="#">Multi-Speciality Recruitment</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li>
+                            <button id="btnSubscribe"  type="button" class="btn btn-primary navbar-btn"><a href="subscribe.html">Subscribe</a></button>
+                        </li>
+                        <li>
+                            <button id="btnLogIn" class="btn btn-success navbar-btn">Log in</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         <section id="topMain" class="container">
             <div class="row">
-                <div class="topAboutRight rightCol col-xs-12 col-sm-6 col-sm-push-6 col-md-6 col-md-push-6 col-lg-9 col-lg-push-3">
+                <div class="topAboutRight rightCol col-xs-12 col-sm-6 col-sm-push-6 col-md-6 col-md-push-6 col-lg-8 col-lg-push-4">
                     <div class="mainBanner">
-                        <img id="bannerLg" class="img-responsive" src="resources/assets/banner-desktop.png"  alt="mcqbank banner">
-                        <img id="bannerMd" class="img-responsive" src="resources/assets/gpbanner_461x511.png"  alt="mcqbank banner">
-                        <img id="bannerSm" class="img-responsive" src="resources/assets/gpbanner_360x511.png"  alt="mcqbank banner">
-                        <h1 class="bannerHeader hidden-xs hidden-sm hidden-md">
-                            MCQBank is run by a team of GPs
-                        </h1>
+                        <img id="bannerLg" src="assets/imgs/banner-desktop.png" width="780" height="470" alt=""
+                             class="img-responsive">
+                        <img id="bannerL" src="assets/imgs/gpbanner_461x570.jpg" width="461"  height="470" alt=""
+                             class="img-responsive">
+                        <img id="bannerMd2" src="assets/imgs/banner-medium-345x448.jpg" width="362" height="470" alt=""
+                             class="img-responsive">
+                        <img id="bannerMd" src="assets/imgs/banner-tablet.png" width="362" height="445" alt=""
+                             class="img-responsive">
+                        <img id="bannerSm" src="assets/imgs/banner-mobile.png" width="320" height="347" alt=""
+                             class="img-responsive">
+                        <h1 id="bannerHeader" class="bannerHeader hidden-xs hidden-sm hidden-md">MCQBank is run by a team of GPs</h1>
                     </div><!--/mainBanner-->
                 </div><!--/rightCol-->
-
-                <div class="topAboutLeft leftCol col-xs-12 col-sm-6 col-sm-pull-6 col-md-6 col-md-pull-6 col-lg-3 col-lg-pull-9">
+                <div class="topAboutLeft leftCol col-xs-12 col-sm-6 col-sm-pull-6 col-md-6 col-md-pull-6 col-lg-4 col-lg-pull-8">
                     <div id="welcomeDiv">
                         <h3>Welcome</h3>
                        <div id="userDiv">
-                           <img src="resources/assets/logged_in_user.png" alt="user picture" id="userImg">
+                           <img src="assets/imgs/logged_in_user.png" alt="user picture" id="userImg">
                            <h3>Shahid Khan<span>!</span></h3>
                        </div><!--/userDiv-->
                     </div><!--/welcomeDiv-->
@@ -305,26 +319,43 @@
         </section><!--/bottomMain-->
     </main>
     <footer>
-       <div id="footerDiv" class="container">
+        <div id="footerDiv" class="container">
             <div id="copyRight" class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                &copy; 2017 MCQBank <span id="copyrightSpan">web design company DotPeak digital agency</span>
+                &copy; 2017 MCQBank <span id="copyrightSpan"
+                                          class="hidden-xs">web design company DotPeak digital agency</span>
             </div><!--/copyRight-->
-            <div id="legal" class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <span><a href="#">terms & conditions</a></span>
-                <span><a href="#">| privacy policy</a></span>
-                <span><a href="#">| share this page</a></span>
+            <div id="legal" class="hidden-xs hidden-sm hidden-md col-lg-6">
+                <span><a href="#">Terms & conditions</a></span>
+                <span><a href="#">  | Privacy policy  </a></span>
+                <div class="btn-group dropup">
+                    <button type="button" class="btn btn-secondary">
+                        Share this page
+                    </button>
+                    <button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href=""><span class=""></span></a></li>
+                        <li><a href=""><span class="fa fa-facebook"></span></a></li>
+                        <li><a href=""><span class="fa fa-twitter"></span></a></li>
+                        <li><a href=""><span class="fa fa-google-plus"></span></a></li>
+                        <li><a href=""><span class="fa fa-linkedin"></span></a></li>
+                        <li><a href=""><span class="fa fa-pinterest"></span></a></li>
+                        <li><a href=""><span class="fa fa-tumblr"></span></a></li>
+                    </ul>
+                </div>
             </div><!--/legal-->
-       </div><!--/footerDiv-->
-        <a href="#" class="scrollToTop" style="display: inline;"></a>
+        </div>
     </footer>
 </div><!--/wrapper-->
 
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-<script src="js/script.js"></script>
 <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
+<script src="vendors/js/offcanvas/offcanvas.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/script.js"></script>
 
 
 </body>
