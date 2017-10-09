@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3ee5233d-415e-487f-b502-b937b99efce7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account.html" afterPath="$PROJECT_DIR$/account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/account.css" afterPath="$PROJECT_DIR$/assets/css/account.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/managesubscription.css" afterPath="$PROJECT_DIR$/assets/css/managesubscription.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/managesub.html" afterPath="$PROJECT_DIR$/managesub.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myperformance.html" afterPath="$PROJECT_DIR$/myperformance.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/testdetails.css" afterPath="$PROJECT_DIR$/assets/css/testdetails.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testdetails.html" afterPath="$PROJECT_DIR$/testdetails.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testhistory.html" afterPath="$PROJECT_DIR$/testhistory.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,38 +22,18 @@
       <file leaf-file-name="testdetails.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testdetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="134" column="29" lean-forward="true" selection-start-line="134" selection-start-column="29" selection-end-line="134" selection-end-column="29" />
+            <state relative-caret-position="289">
+              <caret line="146" column="69" lean-forward="false" selection-start-line="146" selection-start-column="69" selection-end-line="146" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="managesub.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/managesub.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="168" column="80" lean-forward="false" selection-start-line="168" selection-start-column="80" selection-end-line="168" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="managesubscription.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/css/managesubscription.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="216" column="34" lean-forward="true" selection-start-line="216" selection-start-column="34" selection-end-line="216" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testdetails.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testdetails.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/testdetails.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="353">
+              <caret line="128" column="17" lean-forward="true" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -96,6 +72,8 @@
       <find>re</find>
       <find>tit</find>
       <find>intro</find>
+      <find>score</find>
+      <find>your</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,14 +98,14 @@
         <option value="$PROJECT_DIR$/assets/js/rate-star/boostrap-rating-input.js" />
         <option value="$PROJECT_DIR$/assets/js/testdetails.js" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/assets/css/testdetails.css" />
         <option value="$PROJECT_DIR$/account.html" />
         <option value="$PROJECT_DIR$/assets/css/account.css" />
         <option value="$PROJECT_DIR$/testhistory.html" />
-        <option value="$PROJECT_DIR$/testdetails.html" />
         <option value="$PROJECT_DIR$/myperformance.html" />
         <option value="$PROJECT_DIR$/managesub.html" />
         <option value="$PROJECT_DIR$/assets/css/managesubscription.css" />
+        <option value="$PROJECT_DIR$/testdetails.html" />
+        <option value="$PROJECT_DIR$/assets/css/testdetails.css" />
       </list>
     </option>
   </component>
@@ -222,12 +200,12 @@
       <workItem from="1507444611010" duration="7372000" />
       <workItem from="1507483311300" duration="11155000" />
       <workItem from="1507494861635" duration="3499000" />
-      <workItem from="1507536937305" duration="5408000" />
+      <workItem from="1507536937305" duration="8766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37792000" />
+    <option name="totallyTimeSpent" value="41150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -604,34 +582,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testdetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="134" column="29" lean-forward="true" selection-start-line="134" selection-start-column="29" selection-end-line="134" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/managesub.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="-2514">
           <caret line="168" column="80" lean-forward="false" selection-start-line="168" selection-start-column="80" selection-end-line="168" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/testdetails.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/managesubscription.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="216" column="34" lean-forward="true" selection-start-line="216" selection-start-column="34" selection-end-line="216" selection-end-column="34" />
+        <state relative-caret-position="185">
+          <caret line="223" column="9" lean-forward="false" selection-start-line="223" selection-start-column="9" selection-end-line="223" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="146" column="69" lean-forward="false" selection-start-line="146" selection-start-column="69" selection-end-line="146" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/testdetails.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="128" column="17" lean-forward="true" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
           <folding />
         </state>
       </provider>
