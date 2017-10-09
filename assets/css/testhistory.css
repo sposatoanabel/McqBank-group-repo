@@ -34,6 +34,17 @@
     width: 53%;
 }
 
+.formChoiceSm {
+    width: 100%;
+}
+
+.moduleOptions {
+    width: 100%;
+    border: 1px solid #d8e8e5;
+    height: 35px;
+    background-color: #ffffff;
+}
+
 #moduleOptions {
     width: 100%;
     border: 1px solid #d8e8e5;
@@ -42,6 +53,7 @@
 }
 
 /* MEDIA QUERIES*/
+
 
 @media screen and (max-width: 2000px) and (min-width: 1200px) {
 
@@ -264,10 +276,8 @@
     cursor: pointer;
 }
 
-.moduleOptions {
-    width: 100%;
-    border: 1px solid #d8e8e5;
-    background-color: #ffffff;
-    height: 40px;
-}
 
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
