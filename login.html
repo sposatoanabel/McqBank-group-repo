@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/login.css">
 
+
 </head>
 <body>
 <div id="wrapper">
@@ -107,8 +108,8 @@
                     <div id="mbrDiv">
                         <h3>member login</h3>
                         <form action="post" method="post" href="#">
-                            <input class= "infoInput" type="text" id="usrName" name="username" placeholder="Username">
-                            <input class= "infoInput" type="text" id="passWord" name="password" placeholder="Password  ">
+                            <input class= "loginInput" type="text" id="usrName" name="username" placeholder="Username">
+                            <input class= "loginInput" type="text" id="passWord" name="password" placeholder="Password">
                             <div id="loginDiv">
                                 <div id="rememberPwdDiv">
                                     <div id="rememberDiv" class="pull-left">
@@ -118,16 +119,18 @@
                                         <a href="forgot-password.html">forgot password?</a>
                                     </div><!--/loginSpan-->
                                 </div><!--/rememberPwdDiv-->
-                                <button class="btn btnLogin btn-success">login</button>
+                               <div id="loginDivBtn">
+                                   <button class="loginPageBtn btn btnLogin btn-success">login</button>
+                               </div><!--/loginDivBtn-->
                             </div><!--/loginDiv-->
                         </form>
                     </div><!--/mbrDiv-->
                 </div><!--/leftCol-->
-                <div class="rightCol col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="loginRightCol rightCol col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div id="signUpDiv">
                         <h3>register</h3>
                         <div id="registerIcon">
-                            <img src="assets/imgs/register-Icon.png" width="200" height="200" alt="register icon">
+                            <img src="assets/imgs/register-Icon.png" width="150" height="150" alt="register icon">
                         </div><!--/registerIcon-->
                         <h4>create a new account</h4>
                         <div id="signUp">

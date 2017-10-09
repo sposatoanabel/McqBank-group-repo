@@ -165,14 +165,14 @@ h3 {
     margin-top: 30px;
 }
 
-#topMain .leftCol {
+#topMain .leftCol{
     border-radius: 4px;
     background: #ffffff;
     border: solid 1px #d8e8e5;
     padding: 18px;
 }
 
-#mbrDiv h3 {
+#mbrDiv h3, #signUpDiv h3 {
     font-size: 22px;
     text-align: center;
     font-weight: 600;
@@ -894,10 +894,12 @@ footer {
         text-decoration: none;
         opacity: 0.8;
     }
+    /*
 
     .btnLogin button{
         display: none;
     }
+    */
 
     #sample {
         margin-top: 33px;
