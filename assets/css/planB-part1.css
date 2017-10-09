@@ -57,3 +57,7 @@ span{
 footer span{
     font-weight: inherit; !important;
 }
+
+.planBUserDiv{
+    margin-top: 32px !important;
+}

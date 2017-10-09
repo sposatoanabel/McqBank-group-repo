@@ -277,7 +277,7 @@ input[type=text]#usrName {
     color: #ffffff;
     position: absolute;
     bottom: 170px;
-    left: 446px;
+    left: 365px;
     font-size: 40px;
     text-transform: capitalize;
     line-height: 3.5rem;
@@ -288,9 +288,9 @@ input[type=text]#usrName {
     position: relative;
 }
 
-#bannerHeader span {
+/*#bannerHeader span {
     display: block;
-}
+}*/
 
 #bannerMd, #bannerMd2, #bannerSm {
     display: none;
@@ -743,7 +743,7 @@ footer {
     /*TOP MAIN LEFT COL */
 
     #topMain .leftCol {
-        padding: 16px;
+        padding: 0;
         margin-left: 0;
     }
 
@@ -791,7 +791,7 @@ footer {
     /*BOTTOM MAIN RIGHT COL */
 
     .introDiv {
-        margin: 0;
+        margin: 15px;
     }
 
     #addNews, #addTimer {
@@ -976,4 +976,45 @@ footer {
     }
 }
 
+/*#################################### HAMID'S SECTION ##################################*/
 
+/***************************USERDIV************************************/
+.userDivLeftCol{
+    text-align: center !important;
+}
+
+@media screen and (max-width: 768px){
+    .userDivLeftCol, .row{
+        margin: 10px auto;
+    }
+
+}
+
+#userDiv{
+    margin-top: 36px;
+}
+
+#loggedIn, #accountValid{
+    margin:0 auto;
+}
+
+#userDiv h3{
+    color:#2fb1c7;
+    font-weight: 500;
+}
+
+#welcomeDiv h3{
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+
+#lastLog, #validDate span{
+    font-weight: 700;
+}
+
+#lastLog, #validDate{
+    margin:20px auto;
+}
+
+
+/*#################################### END OF HAMID'S SECTION ###########################*/

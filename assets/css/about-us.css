@@ -1,31 +1,5 @@
 /**************************** TOP LEFT**************************/
 
-
-#userDiv{
-    margin-top: 42px;
-}
-
-#loggedIn, #accountValid{
-    margin:40px auto;
-}
-
-#userDiv h3{
-    color:#2fb1c7;
-    font-weight: 500;
-}
-
-#welcomeDiv h3{
-    border-bottom: 1px solid;
-    padding-bottom: 20px;
-}
-
-#lastLog, #validDate span{
-    font-weight: 700;
-}
-
-#lastLog, #validDate{
-    margin:20px auto;
-}
 /**************************** TOP RIGHT **************************/
 
 #bannerHeader{
@@ -67,7 +41,13 @@
 }
 
 .aboutRight{
-    padding-left: 0;
+    margin: 0 auto !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.introContentMedium{
+    margin: 0 30px;
 }
 
 /********************************************************************/

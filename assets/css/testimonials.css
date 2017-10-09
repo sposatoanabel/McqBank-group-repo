@@ -1,9 +1,15 @@
 /**************************** TOP LEFT **************************/
 
 
+/*.userDivLeftCol{
+    margin: 20px auto !important;
+}*/
 
-
-
+@media screen and (max-width: 767px){
+    .userDivLeftCol{
+        margin: 20px auto !important;
+    }
+}
 /**************************** TOP RIGHT **************************/
 
 #bannerHeader{
@@ -14,8 +20,18 @@
 
 /**************************** BOTTOM **************************/
 
+/*
+#bottomMain{
+    padding-right: 0 !important;
+}
+*/
+
+.aboutRight{
+    width: 98%;
+}
+
 .introContent{
-    margin:-20px auto;
+    margin:10px auto;
 }
 
 .introContent .lead{
@@ -30,13 +46,21 @@
     padding:0;
 }
 
+@media screen and (max-width:690px){
+    .testimonialRow{
+        margin: 70px auto !important;
+    }
+}
+
+
 .testimonialDiv p{
     margin:0;
 }
 .testimonialAuthor{
+    height: 200px;
     color:#ffffff;
     background-color:#5bc0de;
-    padding-bottom: 3px;
+    padding-bottom: 10px;
 }
 
 .testimonialAuthor h4,p{
@@ -108,7 +132,7 @@
 .playIcon{
     font-size: 30px;
     margin-left: -17px;
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
 .testAuthImg{
