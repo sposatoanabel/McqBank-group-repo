@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3ee5233d-415e-487f-b502-b937b99efce7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account.html" afterPath="$PROJECT_DIR$/account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/account.css" afterPath="$PROJECT_DIR$/assets/css/account.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/managesubscription.css" afterPath="$PROJECT_DIR$/assets/css/managesubscription.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/managesub.html" afterPath="$PROJECT_DIR$/managesub.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/testdetails.css" afterPath="$PROJECT_DIR$/assets/css/testdetails.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,41 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="managesub.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/managesub.html">
+      <file leaf-file-name="testdetails.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testdetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="80" column="35" lean-forward="false" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+            <state relative-caret-position="459">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/account.html">
+      <file leaf-file-name="testdetails.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/testdetails.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="77" column="40" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="managesubscription.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/managesubscription.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="323" column="13" lean-forward="false" selection-start-line="323" selection-start-column="13" selection-end-line="323" selection-end-column="13" />
+            <state relative-caret-position="211">
+              <caret line="414" column="11" lean-forward="false" selection-start-line="414" selection-start-column="11" selection-end-line="414" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -99,6 +76,7 @@
       <find>read</find>
       <find>panel-body</find>
       <find>acc</find>
+      <find>pageRes</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,7 +98,6 @@
         <option value="$PROJECT_DIR$/assets/css/testhistory.css" />
         <option value="$PROJECT_DIR$/assets/js/rate-star/boostrap-rating-input.js" />
         <option value="$PROJECT_DIR$/assets/js/testdetails.js" />
-        <option value="$PROJECT_DIR$/assets/css/testdetails.css" />
         <option value="$PROJECT_DIR$/assets/js/account.js" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/myperformance.html" />
@@ -133,8 +110,9 @@
         <option value="$PROJECT_DIR$/test-stage-3-clinical-knowledge.html" />
         <option value="$PROJECT_DIR$/assets/css/account.css" />
         <option value="$PROJECT_DIR$/assets/css/managesubscription.css" />
-        <option value="$PROJECT_DIR$/managesub.html" />
         <option value="$PROJECT_DIR$/account.html" />
+        <option value="$PROJECT_DIR$/managesub.html" />
+        <option value="$PROJECT_DIR$/assets/css/testdetails.css" />
       </list>
     </option>
   </component>
@@ -228,12 +206,12 @@
       <workItem from="1507444611010" duration="7372000" />
       <workItem from="1507483311300" duration="11155000" />
       <workItem from="1507494861635" duration="3499000" />
-      <workItem from="1507536937305" duration="15278000" />
+      <workItem from="1507536937305" duration="16165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47662000" />
+    <option name="totallyTimeSpent" value="48549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -508,14 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/testdetails.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6052">
-          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -524,34 +494,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testdetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="490" column="0" lean-forward="true" selection-start-line="490" selection-start-column="0" selection-end-line="490" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testhistory.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="507" column="49" lean-forward="true" selection-start-line="507" selection-start-column="49" selection-end-line="507" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myperformance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="223" column="0" lean-forward="true" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="323" column="13" lean-forward="false" selection-start-line="323" selection-start-column="13" selection-end-line="323" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -596,14 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/managesubscription.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/managesubscription.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -628,14 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/managesub.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="80" column="35" lean-forward="false" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
@@ -646,8 +576,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/account.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="77" column="40" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+        <state relative-caret-position="135">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/managesubscription.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/managesub.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="105" column="43" lean-forward="true" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myperformance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="223" column="0" lean-forward="true" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/testdetails.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="414" column="11" lean-forward="false" selection-start-line="414" selection-start-column="11" selection-end-line="414" selection-end-column="11" />
           <folding />
         </state>
       </provider>

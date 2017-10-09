@@ -253,11 +253,6 @@ TEST DETAILS  Section
     color: #4A4A4A;
 }
 
-.pageResults {
-    text-decoration: none;
-    color: #30B2C8;
-    text-align: center;
-}
 
 
 #midMain {
@@ -415,6 +410,12 @@ h5.lineBetween:before {
     margin-left: 5%;
     line-height: 1.7em;
     font-size: 14px;
+}
+
+.pageResult {
+    text-decoration: none;
+    color: #30B2C8;
+    text-align: center;
 }
 
 /*-------------------------------
