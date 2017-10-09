@@ -1,0 +1,336 @@
+
+/* DEAN ACCOUNT PAGE CSS*/
+
+
+#colLeftAccount {
+    border: 1px solid #d8e8e5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 6px;
+}
+
+.leftColAccount {
+    padding: 0 27px;
+}
+
+.rightCol {
+    margin-top: 6px;
+}
+
+#topMainAccount {
+    margin-top: 10px;
+}
+
+/* SHOOULD BE ON MAIN CSS */
+
+.titles {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+
+.pageLinks {
+    text-decoration: none;
+    color: #30B2C8;
+    text-align: left;
+}
+
+/* FORM SECTION / LIST */
+
+.accountList {
+    list-style: none;
+    padding: 8px 0;
+}
+
+.accountLinks {
+    padding-bottom: 4px;
+    margin-left: -6px;
+    font-size: 16px;
+}
+
+.play {
+    margin-right: 14px;
+    text-decoration: none;
+}
+
+.divideAccount {
+    border-top: 1px solid #d8e8e5;
+    margin-left: -8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#unFinTest {
+    margin-bottom: -1px;
+    padding-top: 18px;
+}
+
+.testBtn {
+    width: 100%;
+}
+
+.formChoiceSm {
+    width: 100%;
+}
+
+.moduleOptions {
+    width: 100%;
+    border: 1px solid #d8e8e5;
+    background-color: #ffffff;
+}
+
+.resumeTest {
+    margin-top: 10px;
+}
+
+#resumeBtn {
+    width: 100%;
+    color: #fff;
+    background-color: #5CD3B5;
+    border: #5CD3B5;
+    padding: 10px;
+    margin: 3px 1px;
+    font-size: 14px;
+}
+
+
+#mbrForm {
+    padding-top: 4px;
+}
+
+.testComp {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 100%;
+    padding: 7px 0;
+    margin: -67px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    color: #6E7C7C;
+}
+
+
+.resumeTest {
+    margin-top: 10px;
+}
+
+
+#unFinTest {
+    margin-bottom: -1px;
+    padding-top: 18px;
+}
+
+.accountList {
+    list-style: none;
+    padding: 8px 0;
+}
+
+.accountLinks {
+    padding-bottom: 4px;
+    margin-left: -9px;
+    font-size: 13px;
+}
+
+.divideAccount {
+    border-top: 1px solid #d8e8e5;
+    margin-left: -8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.play {
+    margin-right: 9px;
+    text-decoration: none;
+}
+
+.introAccount {
+    margin-top: 0;
+    padding: 12px 17px;
+}
+
+.introAccount h2 {
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 11px;
+    color: #4A4A4A;
+}
+
+.accountContMain {
+    font-size: 16px;
+    color: #333;
+}
+
+.accountCont {
+    font-size: 14px;
+    color: #6E7C7C;
+}
+
+.moreAccountCont {
+    display: none;
+}
+
+.moreAccountContXsmall {
+    display: none;
+}
+
+.accountQuestions {
+    padding: 4px 17px;
+    margin-bottom: 27px;
+}
+
+.accountQuestions h2 {
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 11px;
+}
+
+/* BANNER RIGHT COL*/
+
+@media screen and (min-width: 991px) and (max-width: 2000px){
+
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    .bannerContAccount {
+        padding: 18px 115px;
+    }
+
+}
+
+@media screen and (min-width: 991px) and (max-width: 3000px){
+
+    h1 {
+        font-size: 49px;
+        font-weight: 700;
+    }
+
+    .bannerContAccount {
+        padding: 15px 96px;
+    }
+}
+
+
+@media screen and (min-width: 743px) and (max-width: 991px){
+
+    h1 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .bannerContAccount {
+        padding: 15px 96px;
+    }
+}
+
+@media screen and (min-width: 571px) and (max-width: 743px){
+
+    h1 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .bannerContAccount {
+        padding: 15px 18px;
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 571px){
+
+    h1 {
+        font-size: 25px;
+        font-weight: 700;
+
+    }
+
+    .bannerContAccount {
+        padding: 12px 18px;
+    }
+}
+
+
+.accountBanner {
+    width: 100%;
+    height: 300px;
+}
+
+.lgBanner {
+    background-color: #76C9E7;
+    width: 100%;
+    height: 300px;
+    color: #ffffff;
+}
+
+.hrAccount {
+    margin-top: 20px;
+    margin-bottom: 28px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.lgBanner h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+/*-------------------------------
+PANEL  Section
+-------------------------------*/
+
+#accordionAccount .account {
+    margin-bottom: -6px;
+    border-radius: 4px;
+}
+
+
+.panel-account {
+    border: 1px solid #d8e8e5;
+    background-color: #ffffff;
+}
+
+.panel-title {
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 1.7em;
+}
+
+.panel-heading {
+    padding: 30px 21px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.panel-group {
+    margin-bottom: 35px;
+}
+
+.panel-group .panel-heading {
+    border-bottom: 0;
+}
+
+
+.fa.pull-right {
+    margin-left: .3em;
+    margin-top: 5px;
+}
+
+#buttonRead {
+    border: none;
+    background-color: #ffffff;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}

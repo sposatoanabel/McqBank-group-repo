@@ -27,6 +27,8 @@
     "jquery": "^3.2.1",
     "mobile": "*",
     "jquery.countdown": "^2.2.0",
-    "components-font-awesome": "^4.7.0"
+    "components-font-awesome": "^4.7.0",
+    "bootstrap-sortable": "^2.1.0",
+    "star-rating": "*"
   }
 }

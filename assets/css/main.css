@@ -967,3 +967,27 @@ footer {
 }
 
 
+/* DEAN TO-TOP BUTTON*/
+
+
+#to-top {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+
+.btnTop {
+    border: 1px solid #00b3ee;
+    background-color: #00b3ee;
+    color: #ffffff;
+}
+
+.tabBorder {
+    margin: 60px auto;
+    border: 1px solid #add8e6;
+    border-radius: 4px;
+    padding: 50px;
+}
+
