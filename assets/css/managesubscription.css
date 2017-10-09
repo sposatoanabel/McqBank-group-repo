@@ -218,3 +218,23 @@ p {
     color: #CC3333;
     font-weight: 700;
 }
+
+
+
+@media screen and (min-width: 991px) and (max-width: 3000px)  {
+    .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+        position: absolute;
+        margin-top: 4px\9;
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 991px)  {
+    .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+        position: absolute;
+        margin-top: 4px\9;
+        margin-left: -20px;
+        margin-top: 0;
+    }
+}

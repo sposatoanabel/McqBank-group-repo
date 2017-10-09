@@ -90,7 +90,7 @@
     background-color: #5CD3B5;
     border: #5CD3B5;
     padding: 10px;
-    margin: 3px 1px;
+    margin: 3px 0;
     font-size: 14px;
 }
 
@@ -159,10 +159,7 @@
 }
 
 .introAccount h2 {
-    font-size: 26px;
-    font-weight: 700;
     padding-bottom: 11px;
-    color: #4A4A4A;
 }
 
 .accountContMain {
@@ -189,8 +186,6 @@
 }
 
 .accountQuestions h2 {
-    font-size: 26px;
-    font-weight: 700;
     padding-bottom: 11px;
 }
 
