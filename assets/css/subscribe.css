@@ -1,3 +1,8 @@
+/**************************** NAV ***************************/
+#btnSubscribe a:hover, a:focus{
+    color: inherit;
+}
+
 /***************************** TOP MAIN ********************/
 
 .leftCol{
@@ -5,7 +10,7 @@
 }
 
 .registerImgDiv{
-   margin-top: 50px;
+   margin-left:80px;
 }
 
 
@@ -15,20 +20,21 @@
 }
 .form-horizontal .has-feedback .form-control-feedback {
     right: 15px;
-    top: 38px;
+    top: 30px;
 }
 
 
 @media screen and (max-width: 992px) {
     .form-horizontal .has-feedback .form-control-feedback {
         right: 15px;
-        top: 15px;
+        top: 5px;
+        font-size: 10px;
     }
 }
-.checkbox span{
-    right: 15px;
-    top: 0 !important;
-    z-index: 30;
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+     position: inherit !important;
+    margin-right: 10px;
+    color:#5bc0de;
 }
 
 .has-error em{
@@ -96,15 +102,19 @@ form h3{
 
 @media screen and (max-width: 992px){
     .infoInput{
-        margin:45px auto !important;
+        margin: 45px auto !important;
     }
     .has-error em{
         padding-left: 0 !important;
-        margin: -35px 25px !important;
+        margin: -44px 25px !important;
         z-index: 20;
     }
 }
 
+#agree1 {
+    border:1px solid red;
+    z-index: 100;
+}
 .has-error em{
     padding-left: 20px;
     margin: -10px 35px;
@@ -120,7 +130,7 @@ form h3{
 
 @media screen and (max-width: 414px) {
     .checkboxDiv{
-        font-size: 10px !important;
+        font-size: 12px !important;
     }
 }
 
@@ -134,7 +144,7 @@ form h3{
 }
 
 .checkboxDiv{
-    margin-top: 42px;
+    margin-top: 36px;
 }
 
 .checkbox{

@@ -167,7 +167,6 @@ h3 {
 
 #topMain .leftCol{
     border-radius: 4px;
-    background: #ffffff;
     border: solid 1px #d8e8e5;
     padding: 18px;
 }
@@ -1018,5 +1017,9 @@ footer {
     margin:20px auto;
 }
 
-
+#btnSubscribe a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
 /*#################################### END OF HAMID'S SECTION ###########################*/
