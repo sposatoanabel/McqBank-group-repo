@@ -42,12 +42,12 @@
 .accountList {
     list-style: none;
     padding: 8px 0;
+    font-size: 16px;
 }
 
 .accountLinks {
     padding-bottom: 4px;
     margin-left: -6px;
-    font-size: 16px;
 }
 
 .play {
@@ -131,16 +131,7 @@
     padding-top: 18px;
 }
 
-.accountList {
-    list-style: none;
-    padding: 8px 0;
-}
 
-.accountLinks {
-    padding-bottom: 4px;
-    margin-left: -9px;
-    font-size: 13px;
-}
 
 .divideAccount {
     border-top: 1px solid #d8e8e5;
@@ -299,7 +290,7 @@ PANEL  Section
 }
 
 .panel-title {
-    font-size: 14px;
+    font-size: 18px;
     cursor: pointer;
     line-height: 1.7em;
 }
@@ -310,6 +301,12 @@ PANEL  Section
     border-top-right-radius: 3px;
 }
 
+.panel-body {
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+
 .panel-group {
     margin-bottom: 35px;
 }
@@ -318,10 +315,9 @@ PANEL  Section
     border-bottom: 0;
 }
 
-
 .fa.pull-right {
     margin-left: .3em;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 #buttonRead {
