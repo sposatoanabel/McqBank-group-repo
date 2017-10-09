@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3ee5233d-415e-487f-b502-b937b99efce7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/managesub.html" afterPath="$PROJECT_DIR$/managesub.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="managesub.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/managesub.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="1016" column="29" lean-forward="true" selection-start-line="1016" selection-start-column="29" selection-end-line="1016" selection-end-column="29" />
+            <state relative-caret-position="160">
+              <caret line="975" column="52" lean-forward="false" selection-start-line="975" selection-start-column="52" selection-end-line="975" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -139,10 +140,10 @@
         <option value="$PROJECT_DIR$/test-stage-3-clinical-knowledge.html" />
         <option value="$PROJECT_DIR$/assets/css/managesubscription.css" />
         <option value="$PROJECT_DIR$/account.html" />
-        <option value="$PROJECT_DIR$/managesub.html" />
         <option value="$PROJECT_DIR$/assets/css/testdetails.css" />
         <option value="$PROJECT_DIR$/assets/css/testhistory.css" />
         <option value="$PROJECT_DIR$/assets/css/account.css" />
+        <option value="$PROJECT_DIR$/managesub.html" />
       </list>
     </option>
   </component>
@@ -183,17 +184,6 @@
             <path>
               <item name="McqBank-group-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="McqBank-group-repo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="McqBank-group-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="McqBank-group-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="McqBank-group-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="McqBank-group-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,12 +227,12 @@
       <workItem from="1507483311300" duration="11155000" />
       <workItem from="1507494861635" duration="3499000" />
       <workItem from="1507536937305" duration="18192000" />
-      <workItem from="1507560241192" duration="1655000" />
+      <workItem from="1507560241192" duration="2318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52231000" />
+    <option name="totallyTimeSpent" value="52894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -635,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/managesub.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="1016" column="29" lean-forward="true" selection-start-line="1016" selection-start-column="29" selection-end-line="1016" selection-end-column="29" />
+        <state relative-caret-position="160">
+          <caret line="975" column="52" lean-forward="false" selection-start-line="975" selection-start-column="52" selection-end-line="975" selection-end-column="52" />
           <folding />
         </state>
       </provider>
