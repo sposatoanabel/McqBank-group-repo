@@ -1,0 +1,32 @@
+{
+  "name": "bootstrap-offcanvas",
+  "version": "2.4.0",
+  "authors": [
+    "Phil Hughes <me@iamphill.com>"
+  ],
+  "main": [
+    "dist/css/bootstrap.offcanvas.css",
+    "dist/js/bootstrap.offcanvas.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  },
+  "homepage": "https://github.com/iamphill/Bootstrap-Offcanvas",
+  "_release": "2.4.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.4.0",
+    "commit": "5cee85ef1bd5df1475bba3aa649423dc81d9d4ff"
+  },
+  "_source": "https://github.com/iamphill/Bootstrap-Offcanvas.git",
+  "_target": "^2.4.0",
+  "_originalSource": "bootstrap-offcanvas"
+}
