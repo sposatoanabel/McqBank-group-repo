@@ -227,6 +227,11 @@ input[type=text]#usrName {
     text-align: center;
 }
 
+#signUpTextSpan a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 #signUpSpan {
     width: 30px;
     float: right;
@@ -329,6 +334,7 @@ input[type=text]#usrName {
     text-decoration: none;
     opacity: 0.8;
 }
+
 
 #bottomMain .planBox {
     padding: 12px;
@@ -868,6 +874,10 @@ footer {
         display: block;
     }
 
+    .loginForgotPass{
+
+    }
+
     .loginForgotPass a {
         display: none;
     }
@@ -875,6 +885,7 @@ footer {
     .loginForgotPass span {
         display: block;
         padding: 18px 0;
+        margin-top:12px;
     }
 
     #loginDiv {
@@ -1022,4 +1033,5 @@ footer {
     text-transform: uppercase;
     color: #ffffff;
 }
+
 /*#################################### END OF HAMID'S SECTION ###########################*/

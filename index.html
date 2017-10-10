@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css"/>
     <!--main css-->
     <link rel="stylesheet" href="assets/css/main.css">
+    <!--test css-->
+    <link rel="stylesheet" href="assets/css/test.css">
 
 </head>
 <body>
@@ -99,26 +101,26 @@
                 <div class="leftCol col-lg-4 col-md-6 col-sm-6">
                     <div id="mbrDiv">
                         <h3>Member Login</h3>
-                        <form action="#" method="post" href="#">
-                            <input type="text" id="usrName" placeholder="Username">
-                            <input type="text" id="passWord" placeholder="Password">
-                        </form>
-                        <div id="loginDiv">
-                            <div class="loginForgotPass">
-                                <a href="forgot-password.html">Forgot password?</a>
-                                <span>Already have an account?</span>
+                            <form method="post" class="form-horizontal" action="#">
+                                <input type="text" id="usrName" placeholder="Username">
+                                <input type="text" id="passWord" placeholder="Password">
+                            </form>
+                                <div id="loginDiv">
+                                <div class="loginForgotPass">
+                                    <a href="forgot-password.html">Forgot password?</a>
+                                    <span>Already have an account?</span>
+                                </div>
+                                <div class="btnLogin">
+                                    <button type="submit" class="btn btn-lg btn-success pull-right">Login</button>
+                                </div>
                             </div>
-                            <div class="btnLogin">
-                                <!--<button class="btn btn-lg btn-success pull-right" type="button"><a href="subscribe.html">Subscribe</a></button>-->
-                                <button type="submit" class="btn btn-lg btn-success pull-right">Login</button>
-                            </div>
-                        </div>
+
                         <!-- / loginDiv-->
                     </div>
                     <!-- / mbrDiv -->
                     <div id="signUp">
                         <button class="btn-primary btn" id="signUpBtn">
-                            <span id="signUpTextSpan"><a href="subscribe.html"> Sign Up</a></span>
+                            <span id="signUpTextSpan"><a href="subscribe.html">Sign Up</a></span>
                             <span id="signUpSpan" class="glyphicon glyphicon-menu-right"></span>
                         </button>
                     </div>
@@ -340,9 +342,12 @@
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
+<script src="bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="bower_components/jquery-validation/dist/additional-methods.min.js"></script>
 <script src="vendors/js/offcanvas/offcanvas.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/script.js"></script>
+<script src="assets/js/subscribe.js"></script>
 
 </body>
 </html>
