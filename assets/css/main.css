@@ -1034,4 +1034,11 @@ footer {
     color: #ffffff;
 }
 
+
+.glyphicon {
+    top: 3px !important;
+    left: 4px !important;
+    font-weight: 200 !important;
+}
+
 /*#################################### END OF HAMID'S SECTION ###########################*/
