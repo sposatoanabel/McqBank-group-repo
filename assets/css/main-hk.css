@@ -1,0 +1,818 @@
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    color: #6E7C7C;
+
+
+}
+
+@media screen and (max-width: 792px) {
+    body{
+       padding:0 10px;
+    }
+}
+
+
+
+/**************************** HEADER SECTION ***************************************/
+/***********************************************************************************/
+
+header{
+    margin: 0 5px;
+    display:block;
+
+}
+
+header a{
+    text-decoration: none;
+}
+
+
+#logNav .glyphicon{
+    position: relative;
+    top: 5px;
+    left:10px;
+    font-size: 20px;
+}
+
+
+#menuNav .glyphicon {
+    position: relative !important;
+    top: 0 !important;
+    left: 1px !important;
+    font-size: 10px !important;
+}
+
+#toggleBtn{
+    color:#2fb1c7 !important;
+    font-weight: bold;
+    font-size: 1.3em;
+    border:none;
+    outline:none;
+    background-color: transparent;
+}
+
+
+#logNav li a{
+    font-family: 'Open Sans', sans-serif;
+    color: #5D8CAE !important;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 5px;
+}
+
+#menuNav li a{
+    font-family: 'Open Sans', sans-serif;
+    color: #6E7C7C !important;
+    font-size: 1.3em;
+    line-height: 1em;
+    margin: 5px;
+}
+
+@media screen and (max-width: 576px){
+    #subscribeLi a{
+        margin-left:15px !important;
+    }
+}
+
+
+.logList {
+    color: #6E7C7C;
+    margin: 10px;
+}
+
+#logOut a{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-size: 1.3em;
+    color:#2fb1c7;
+}
+
+#topNav{
+    background-color: transparent;
+}
+
+
+#bottomNav{
+    background-color: transparent;
+}
+
+
+@media screen and (max-width: 768px) {
+    #bottomNav{
+        margin-top:0;
+    }
+}
+
+#mcqLogo{
+
+    margin-left: 15px;
+}
+
+header ul, li a{
+    font-family: 'Open Sans', sans-serif;
+    color: #6E7C7C;
+    font-size: 1.1em;
+    line-height: 1em;
+    margin: 5px;
+
+}
+
+.btn-info{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff !important;
+    font-size: 1.1em;
+    line-height: 1em;
+    margin: 5px;
+}
+
+#subscribeLi a{
+    padding: 0;
+}
+
+@media screen and (min-width: 1200px){
+    #mcqLogo img{
+        margin-top:-12px !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    header ul, li a{
+        font-family: 'Open Sans', sans-serif;
+        color: #6E7C7C;
+        font-size: 1.1em;
+        line-height: 1em;
+        margin: 5px;
+    }
+    #mcqLogo img{
+        margin-top:17px ;
+        width: 109px;
+        height:25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    header ul, li a{
+        font-family: 'Open Sans', sans-serif;
+        color: #6E7C7C;
+        font-size:1em !important;
+        line-height: 1em !important;
+        margin: 10px 0 !important;
+    }
+    #mcqLogo img{
+        margin-top: 32px;
+        margin-right: 0;
+        margin-left: 0;
+        width: 90px;
+        height: 21px;
+    }
+}
+
+@media screen and (width: 768px){
+    #mcqLogo img{
+        margin-top: 30px !important;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #mcqLogo img{
+        margin-top:15px;
+        margin-left: 15px;
+        width: 90px;
+        height:21px;
+    }
+}
+
+#burgerSpan {
+    width: 23px;
+    height: 16px;
+    position: relative;
+    margin: 0 auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+#burgerSpan span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: #2fb1c7;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+@media screen {
+    #burgerSpan{
+        margin-right: -10px;
+    }
+}
+
+#burgerSpan span:nth-child(1) {
+    top: 0;
+}
+
+#burgerSpan span:nth-child(2) {
+    top: 8px;
+}
+
+#burgerSpan span:nth-child(3) {
+    top: 16px;
+}
+
+#burgerSpan.open span:nth-child(1) {
+    top: 7px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+#burgerSpan.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+}
+
+#burgerSpan.open span:nth-child(3) {
+    top: 7px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+#menuNav li a.page-scroll.active{
+    color: #5bc0de !important;
+}
+/******************************* MAIN SECTION ***********************************/
+/********************************************************************************/
+
+
+/******************************* TOP MAIN SECTION ******************************/
+
+button:hover{
+    opacity: 0.7;
+}
+
+a:hover{
+    /*opacity: 0.7;*/
+    /*text-decoration: none;*/
+}
+.introContent{
+    padding:20px;
+
+}
+
+
+/**********************.leftCol****************/
+
+#topMain .leftCol{
+    border: solid 1px #BFBFBF;
+    border-radius: 4px;
+    padding-bottom: 32px;
+}
+
+#topMain .leftCol div{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.infoInput{
+    height: 60px;
+    width:90%;
+    padding-left: 10px;
+    margin: 15px auto;
+    border: solid 1px #d8e8e5;
+    border-radius: 4px;
+    background-color: rgba(216, 232, 229, .75);
+}
+
+
+.infoInput::placeholder{
+    padding-left: 20px;
+    -webkit-padding-end:20px;
+    color:#6E7C7C;
+}
+
+#loginDiv{
+    width:90%;
+    padding-bottom: 0;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#loginDiv button{
+    height: 60px;
+    width:40%;
+    margin-left: 10px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #5CD3B4;
+    color: #fff;
+    text-transform: capitalize;
+}
+#loginSpan{
+    height: 60px;
+    width:50%;
+    margin:15px 0 0;
+    text-align: left !important;
+}
+
+#loginSpan a {
+    text-decoration: none;
+    color: #5bc0de !important;
+}
+
+#signUp{
+    height: 60px;
+    margin: 15px auto;
+    width:90%
+}
+
+#signUpBtn a, #loginBtn a{
+    text-decoration: none !important;
+    color: #ffffff;
+}
+
+#sample{
+    height: 50px;
+    margin: 35px auto 0;
+    width:90%
+}
+#signUp button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    /*background-color: #2fb1c7;*/
+    color: #fff;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+#signUpSpan{
+    border-left: solid 2px #ffffff;
+    color: #ffffff;
+    margin-left: 30%;
+    padding: 15px;
+    font-size: 18px;
+}
+
+#sample form{
+    border-radius: 4px;
+    font-size: 1.2em;
+    color: #5D8CAE;
+    outline:none;
+
+}
+
+#sampleMenu {
+    height: 35px;
+    width: 100%;
+    outline:none;
+    border: solid 1px #d8e8e5;
+    border-radius: 4px;
+    padding-left: 15px;
+}
+
+#sampleMenu select{
+    border: solid 1px #d8e8e5;
+    border-radius: 4px;
+    outline:none;
+}
+
+@media screen and (max-width: 768px){
+    #topMain .leftCol{
+        padding-bottom: 15px;
+    }
+    .mainBanner img{
+        margin: 10px auto !important;
+    }
+}
+
+/**********************.rightCol****************/
+
+.rightCol{
+    padding-right:0;
+}
+
+#bannerMd{
+    display: none;
+}
+
+#bannerSm{
+    display:none;
+}
+@media screen and (min-width:768px) and (max-width: 1200px){
+
+    #bannerLg{
+        display:none;
+    }
+    #bannerSm{
+        display:block;
+    }
+    .mainBanner img{
+        height: 511px;
+        margin-left: 3px;
+    }
+
+    #topMain .leftCol{
+        padding-bottom: 23px;
+    }
+    #topMain{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (width: 768px){
+    #topMain .rightCol{
+        margin-top: -10px;
+    }
+}
+
+.mainBanner img{
+    width: 100%;
+}
+
+
+.bannerHeader{
+    color: #ffffff;
+    position:relative;
+    bottom:300px;
+    left:420px;
+    font-size: 40px;
+    text-transform: capitalize;
+    width:50%;
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .col-md-6 {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 765px){
+
+
+    .mainBanner img{
+        padding-right: 12px !important;
+    }
+    #topMain .leftCol{
+        padding-bottom:0 !important;
+    }
+}
+
+@media screen and (max-width: 690px){
+    #bannerLg{
+        display: none;
+    }
+    #bannerMd{
+        display: none;
+    }
+
+    #bannerSm{
+        display: block;
+    }
+}
+/******************************* BOTTOM MAIN SECTION ******************************/
+
+/**********************.leftCol****************/
+
+#bottomMain .leftCol{
+    padding:0;
+}
+
+@media screen and (min-width: 1200px){
+    #bottomMain .leftCol, #bottomMain .introDiv{
+        margin-top: -60px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px){
+
+    #bottomMain .planBox{
+        width:48%;
+        margin: 9px !important;
+    }
+
+    #bottomMain .leftCol{
+        padding:0;
+    }
+}
+
+#bottomMain .planBox{
+    height: 150px;
+    color:#5D8CAE;
+    margin: 10px 0;
+    border-radius: 2px;
+    border-top:solid 1px #BFBFBF;
+    border-right:solid 1px #BFBFBF;
+    border-bottom:solid 1px #BFBFBF;
+}
+
+#bottomMain .planBox h4{
+    font-weight: bold;
+}
+
+#bottomMain .planBox b{
+    color: #0f0f0f !important;
+}
+
+#bottomMain .planBox span{
+    text-transform: uppercase;
+}
+
+#bottomMain .planBox hr{
+    width:30%;
+    margin:0;
+}
+#bottomMain .planBox p{
+    border-top: solid 1px #446CB3;
+    padding-top: 10px;
+    font-size: 0.9em;
+}
+
+#planBox1{
+    border-left: solid 25px #4183D7;
+    width:100%;
+}
+
+#planBox1 h4{
+    color:#4183D7;
+}
+
+#planBox1 hr{
+    border-bottom: solid 2px #4183D7;
+}
+
+
+#planBox2{
+    border-left: solid 25px #1E8BC3;
+}
+
+#planBox2 h4{
+    color:#1E8BC3;
+}
+
+#planBox2 hr{
+    border-bottom: solid 2px #1E8BC3;
+}
+
+
+#planBox3{
+    border-left: solid 25px #2574A9;
+}
+
+#planBox3 h4{
+    color:#2574A9 !important;
+}
+
+#planBox3 hr{
+    border-bottom: solid 2px #2574A9;
+}
+
+#planBox4{
+    border-left: solid 25px #3A539B;
+}
+
+#planBox4 h4{
+    color:#3A539B !important;
+}
+
+#planBox4 hr{
+    border-bottom: solid 2px #3A539B;
+}
+
+#priceDiv{
+    border:3px solid  #22A7F0 !important;
+    padding-top:5px;
+    padding-bottom: 15px;
+}
+
+#priceDiv h4{
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    border:none !important;
+}
+
+#priceP1{
+    margin-top: -10px;
+    text-transform: capitalize;
+    text-align: center;
+    color:#5D8CAE;
+    border:none !important;
+}
+
+#priceP2{
+    padding-top: 0 !important;
+    margin-bottom: 15px;
+    font-size: 3em !important;
+    text-align: center;
+    color:#22A7F0;
+    border:none !important;
+}
+
+/**********************.rightCol****************/
+
+.introContent h3{
+    font-weight: 600;
+}
+
+.introContent .lead{
+    font-weight: 500;
+}
+
+.infoImgBg{
+    background-color: rgba(0, 179, 238, .5);
+    width:413px;
+    height:200px;
+    position:relative;
+    bottom:200px;
+    left:0;
+    /*z-index: 20;*/
+    margin-bottom: -250px;
+}
+
+.infoMore{
+    display: none;
+}
+
+.readMoreBtn{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-size: 14px;
+    border: none;
+    padding:0;
+    background-color: transparent !important;
+    color: #2fb1c7 !important;
+    outline:none;
+    margin:5px 0 30px;
+}
+
+#addNews, #addTimer{
+    width: 48%;
+    height: 465px;
+    margin:0 5px;
+    border: solid 1px #d8e8e5;
+    border-radius: 4px;
+    padding:0;
+}
+
+@media screen  and (max-width: 992px){
+    #addNews,#addTimer{
+        width:100%;
+        height:350px;
+        margin:10px auto;
+    }
+    #bottomMain .rightCol{
+        padding:0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    #addNews, #addTimer{
+        margin-bottom: 20px;
+    }
+
+    #addNews{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #addNews ul{
+        list-style-type: none;
+        padding:0;
+        line-height: 1.5em;
+    }
+}
+
+.infoIcon{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 80px;
+    left: 160px;
+    z-index: 30;
+}
+
+.basicIcon{
+    display: block;
+    margin: 40px auto;
+}
+
+.addInfo h4{
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+.addInfo ul li, .addInfo ul li a{
+    color: #2fb1c7;
+    line-height: 1.5em;
+}
+
+.addInfo ul li p{
+    color: #6E7C7C;
+    margin:5px;
+    font-size: .9em;
+    line-height: 1.3em;
+}
+
+#countdownDiv{
+    margin-top:-15px;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 10px;
+}
+
+#remain{
+    text-transform: capitalize;
+    text-align: center;
+    margin:0 auto;
+}
+
+#nextExam{
+    text-align: center;
+    margin:25px;
+    color: #2fb1c7;
+}
+
+/******************************* FOOTER SECTION ******************************/
+
+.scrollToTop{
+    width:70px;
+    height:110px;
+    padding:10px;
+    text-align:center;
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    bottom:0;
+    right:0;
+    display:none;
+    background: url('../resources/assets/chevron-arrow-upx24.png') no-repeat 0 20px;
+    z-index:30;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
+
+footer{
+    background-color: rgba(216, 232, 229, .55);
+    min-height: 40px;
+}
+
+#footerDiv{
+    padding:20px 0;
+}
+
+
+#copyRight{
+    padding-left: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    #copyRight, #legal{
+        text-align: center;
+    }
+    #legal{
+        padding-left:0 !important;
+    }
+}
+
+#legal{
+    padding-left:225px;
+    text-transform: capitalize;
+}
+
+#legal a{
+    text-decoration: none;
+    color: #6E7C7C;
+}

@@ -165,14 +165,13 @@ h3 {
     margin-top: 30px;
 }
 
-#topMain .leftCol {
+#topMain .leftCol{
     border-radius: 4px;
-    background: #ffffff;
     border: solid 1px #d8e8e5;
     padding: 18px;
 }
 
-#mbrDiv h3 {
+#mbrDiv h3, #signUpDiv h3 {
     font-size: 22px;
     text-align: center;
     font-weight: 600;
@@ -228,6 +227,11 @@ input[type=text]#usrName {
     text-align: center;
 }
 
+#signUpTextSpan a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 #signUpSpan {
     width: 30px;
     float: right;
@@ -277,7 +281,7 @@ input[type=text]#usrName {
     color: #ffffff;
     position: absolute;
     bottom: 170px;
-    left: 446px;
+    left: 365px;
     font-size: 40px;
     text-transform: capitalize;
     line-height: 3.5rem;
@@ -288,9 +292,9 @@ input[type=text]#usrName {
     position: relative;
 }
 
-#bannerHeader span {
+/*#bannerHeader span {
     display: block;
-}
+}*/
 
 #bannerMd, #bannerMd2, #bannerSm {
     display: none;
@@ -330,6 +334,7 @@ input[type=text]#usrName {
     text-decoration: none;
     opacity: 0.8;
 }
+
 
 #bottomMain .planBox {
     padding: 12px;
@@ -510,11 +515,11 @@ input[type=text]#usrName {
 }
 
 
-#countdownDiv {
+#countdownDiv{
+    margin-top:-15px;
     text-align: center;
-    font-size: 4rem;
-    font-weight: 500;
-    color: #4a4a4a;
+    font-size: 70px;
+    letter-spacing: 10px;
 }
 
 #nextExam {
@@ -693,13 +698,19 @@ footer {
         padding: 0;
     }
 
-    #readMoreBtn {
-        color: #2fb1c7;
-        background: none;
-        border: none;
-        padding: 0;
-    }
 
+    .readMoreBtn{
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 14px;
+        border: none;
+        padding:0;
+        background-color: transparent !important;
+        color: #2fb1c7 !important;
+        outline:none;
+        margin:5px 0 30px;
+    }
 
     /* FOOTER */
 
@@ -737,7 +748,7 @@ footer {
     /*TOP MAIN LEFT COL */
 
     #topMain .leftCol {
-        padding: 16px;
+        padding: 0;
         margin-left: 0;
     }
 
@@ -785,7 +796,7 @@ footer {
     /*BOTTOM MAIN RIGHT COL */
 
     .introDiv {
-        margin: 0;
+        margin: 15px;
     }
 
     #addNews, #addTimer {
@@ -842,6 +853,10 @@ footer {
         padding: 10px;
     }
 
+    #btnSubscribe .btn a{
+        text-decoration: none;
+        color: #ffffff !important;
+    }
 
     #topMain {
         margin-top: 0;
@@ -859,6 +874,10 @@ footer {
         display: block;
     }
 
+    .loginForgotPass{
+
+    }
+
     .loginForgotPass a {
         display: none;
     }
@@ -866,6 +885,7 @@ footer {
     .loginForgotPass span {
         display: block;
         padding: 18px 0;
+        margin-top:12px;
     }
 
     #loginDiv {
@@ -884,10 +904,12 @@ footer {
         text-decoration: none;
         opacity: 0.8;
     }
+    /*
 
     .btnLogin button{
         display: none;
     }
+    */
 
     #sample {
         margin-top: 33px;
@@ -966,4 +988,50 @@ footer {
     }
 }
 
+/*#################################### HAMID'S SECTION ##################################*/
 
+/***************************USERDIV************************************/
+.userDivLeftCol{
+    text-align: center !important;
+}
+
+@media screen and (max-width: 768px){
+    .userDivLeftCol, .row{
+        margin: 10px auto;
+    }
+
+}
+
+#userDiv{
+    margin-top: 36px;
+}
+
+#loggedIn, #accountValid{
+    margin:0 auto;
+}
+
+#userDiv h3{
+    color:#2fb1c7;
+    font-weight: 500;
+}
+
+#welcomeDiv h3{
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+
+#lastLog, #validDate span{
+    font-weight: 700;
+}
+
+#lastLog, #validDate{
+    margin:20px auto;
+}
+
+#btnSubscribe a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/*#################################### END OF HAMID'S SECTION ###########################*/
