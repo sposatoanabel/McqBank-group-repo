@@ -1,0 +1,536 @@
+/* Dean TEST DETAILS Page CSS*/
+
+/* TEST DETAILS Top Section*/
+
+#topMainTestDetails {
+    margin-top: 0;
+}
+
+
+.titles {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+
+@media screen and (max-width: 571px) and (min-width: 0px) {
+
+    .your-score h1 {
+        font-size: 32px;
+        color:  #6E7C7C;
+    }
+
+}
+
+@media screen and (max-width: 3000px) and (min-width: 571px) {
+
+    .your-score h1 {
+        font-size: 48px;
+        color:  #6E7C7C;
+    }
+
+}
+
+
+
+@media screen and (min-width: 587px) and (max-width: 991px) {
+
+    .your-score {
+        margin-left: 36%;
+    }
+}
+
+
+@media screen and (min-width: 530px) and (max-width: 587px) {
+
+    .your-score {
+        margin-left: 30%;
+    }
+}
+
+@media screen and (min-width: 482px) and (max-width: 530px) {
+
+    .your-score {
+        margin-left: 24%;
+    }
+}
+
+
+@media screen and (min-width: 461px) and (max-width: 482px) {
+
+    .your-score {
+        margin-left: 20%;
+    }
+}
+
+
+@media screen and (min-width: 409px) and (max-width: 461px) {
+
+    .your-score {
+        margin-left: 9%;
+    }
+}
+
+@media screen and (min-width: 385px) and (max-width: 409px) {
+
+    .your-score {
+        margin-left: 3%;
+    }
+}
+
+@media screen and (min-width: 365px) and (max-width: 385px) {
+
+    .your-score {
+        margin-left: -3%;
+    }
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 365px) {
+
+    .your-score {
+        margin-left: -10%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 350px) {
+
+    .your-score {
+        margin-left: -16%;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    .your-score {
+        margin-left: -18%;
+
+    }
+
+}
+
+.score-circle {
+    width: 181px;
+    height: 169px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 1000px;
+    border: 3px solid #d8e8e5;
+}
+
+
+
+
+.scores {
+    margin-top: 45px;
+}
+
+.score-percent {
+    margin-top: -5px;
+}
+
+
+.sm-res-cont {
+    position: relative;
+    padding: 10px 4px;
+    margin-left: 5%;
+    border-bottom: 1px solid #d8e8e5;
+    margin-right: 12px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.min-title {
+    margin-top: -5px;
+}
+
+.u-sm-min {
+    position: absolute;
+    top: 20px;
+    right: 54px;
+}
+
+.sm-pge-min {
+    position: absolute;
+    top: 7px;
+    right: -46px;
+    color: #4A4A4A;
+}
+
+.pageLinks {
+    text-decoration: none;
+    color: #30B2C8;
+    text-align: left;
+}
+
+#lst-usr {
+    border: none;
+}
+
+/*-------------------------------
+TEST DETAILS  Section
+-------------------------------*/
+
+.details {
+    margin: 20px 66px;
+}
+
+.detailsBorder {
+    border: 1px solid #d8e8e5;
+    margin-top: 20px;
+    margin-bottom: 65px;
+    border-radius: 4px;
+
+}
+
+.flex-details {
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+    margin-bottom: 6px;
+}
+
+
+.scores {
+    margin-top: 45px;
+}
+
+.score-percent {
+    margin-top: -5px;
+}
+
+
+.your-result {
+    margin-right: 23%;
+    margin-top: -16px;
+    margin-bottom: 18px;
+}
+
+
+.res-cont {
+    border-bottom: 1px solid #d8e8e5;
+}
+
+
+.final-score {
+    margin-right: 10%;
+    position: relative;
+}
+
+#u-min {
+    margin-top: 29px;
+}
+
+.sm-min {
+    position: absolute;
+    top: 36px;
+    left: 52px;
+    color: #4A4A4A;
+}
+
+#u-total {
+    position: absolute;
+    top: 89px;
+    left: 0;
+}
+
+.sm-total {
+    position: absolute;
+    top: 7px;
+    left: 48px;
+    color: #4A4A4A;
+}
+
+#u-sec {
+    position: absolute;
+    top: 165px;
+}
+
+.sm-sec {
+    position: absolute;
+    top: 7px;
+    left: 63px;
+    color: #4A4A4A;
+}
+
+
+
+#midMain {
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+.test-result-titles {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.answer-question {
+    padding-top: 11px;
+}
+
+h5 {
+    position: relative;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+
+h5.lineBetween {
+    margin-top: 0;
+}
+
+
+h5.lineBetween:before {
+    content: "";
+    display: block;
+    border-top: 1px solid #d8e8e5;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+
+
+.testContent {
+    /*margin: 17px 11px;*/
+    padding: 18px 4px;
+    margin-left: 5%;
+    line-height: 1.7em;
+    font-size: 14px;
+
+}
+
+.quest-answer-sect {
+    margin-top: -28px;
+    margin-bottom: 35px;
+}
+
+
+.questionPanel {
+    margin-bottom: 0;
+    background-color: #fff;
+    border: 1px solid #d8e8e6;
+}
+
+.yourAnswer {
+    font-size: 14px;
+}
+
+.uAnswer {
+    color: red;
+}
+
+
+.answer-content {
+    line-height: 1.7em;
+}
+
+.correct-answer {
+    padding-top: 14px;
+}
+
+.all-answers {
+    padding-top: 14px;
+}
+
+.feedback-test a {
+    text-decoration: none;
+    color: #4A4A4A;
+
+}
+
+#sm-envelope {
+    margin-right: 0;
+}
+
+#sm-feedback {
+    font-size: 12px;
+    margin-right: 0;
+}
+
+.rating-input {
+    color: goldenrod;
+}
+
+.sm-res-cont {
+    position: relative;
+    padding: 10px 4px;
+    margin-left: 5%;
+    border-bottom:  1px solid #d8e8e5;
+    margin-right: 12px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+}
+
+#lst-usr {
+    border: none;
+}
+
+#lst-usr1 {
+    border: none;
+}
+
+
+.min-title {
+    margin-top: -5px;
+}
+
+.u-sm-min{
+    position: absolute;
+    top: 20px;
+    right: 54px;
+}
+
+.sm-pge-min {
+    position: absolute;
+    top: 7px;
+    right: -46px;
+    color: #4A4A4A;
+}
+
+.spn-clr {
+    color: #4A4A4A;
+    font-size: 14px;
+}
+
+.testContent-xs {
+    padding: 18px 4px;
+    line-height: 1.7em;
+    font-size: 14px;
+    text-align: center;
+}
+
+.testContent {
+    /* margin: 17px 11px; */
+    padding: 18px 4px;
+    margin-left: 5%;
+    line-height: 1.7em;
+    font-size: 14px;
+}
+
+.pageResult {
+    text-decoration: none;
+    color: #30B2C8;
+    text-align: center;
+}
+
+/*-------------------------------
+MEDIA QUERIES Section
+-------------------------------*/
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+
+    .xs-display {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2000px){
+
+
+    #testResult {
+        width: 931px;
+    }
+
+    .feedback-test {
+        margin-right: 1%;
+        margin-top: 2px;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .star-rating {
+        margin-right: 25px;
+        margin-top: 2px;
+    }
+
+}
+
+
+@media screen and (min-width: 991px) and (max-width: 1200px){
+
+    #testResult {
+        width: 793px;
+    }
+    .feedback-test {
+        margin-right: 0;
+        margin-top: 2px;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .star-rating {
+        margin-right: 25px;
+        margin-top: 2px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 588px){
+
+    .xs-display {
+        display: block;
+    }
+
+    .sm-display {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 3000px){
+
+    .xs-display {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 588px) and (max-width: 992px){
+
+    .xs-display {
+        display: none;
+    }
+
+    .sm-display {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 312px){
+
+    h5.lineBetween span {
+        background: #fff;
+        padding: 0 4px;
+        position: relative;
+        z-index: 5;
+    }
+}
+
+
+@media screen and (min-width: 312px) and (max-width: 3000px){
+
+    h5.lineBetween span {
+        background: #fff;
+        padding: 0 20px;
+        position: relative;
+        z-index: 5;
+    }
+}
+

@@ -1,0 +1,283 @@
+/* Dean TEST HISTORY Page CSS*/
+
+/* TEST HISTORY Top Section*/
+
+#topMainTestHistory {
+    margin-top: 0;
+    margin-bottom: 340px;
+}
+
+#testTab {
+    margin: 0 -58px;
+}
+
+.moduleForm {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #6E7C7C;
+}
+
+.formFlex {
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#formName {
+    font-size: 16px;
+    color: #6E7C7C;
+    margin-top: 10px;
+}
+
+.formChoice {
+    width: 53%;
+}
+
+.formChoiceSm {
+    width: 100%;
+}
+
+.moduleOptions {
+    width: 100%;
+    border: 1px solid #d8e8e5;
+    height: 35px;
+    background-color: #ffffff;
+}
+
+#moduleOptions {
+    width: 100%;
+    border: 1px solid #d8e8e5;
+    height: 35px;
+    background-color: #ffffff;
+}
+
+/* MEDIA QUERIES*/
+
+
+@media screen and (max-width: 2000px) and (min-width: 1200px) {
+
+    .searchForm {
+        width: 47%;
+        margin-left: 1px;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 991px) {
+
+    .searchForm {
+        width: 51%;
+    }
+}
+
+
+@media screen and (max-width: 2000px) and (min-width: 1200px) {
+
+    #grpBtn {
+        margin-left: 21px;
+        width: 20%;
+    }
+
+}
+
+
+    @media screen and (max-width: 1200px) and (min-width: 991px) {
+
+        #grpBtn {
+            margin-left: 9px;
+            width: 20%;
+        }
+
+    }
+
+
+@media screen and (max-width: 2000px) and (min-width: 1200px) {
+
+
+    #testResult {
+        width: 931px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 991px) {
+    #testResult {
+        width: 793px;
+    }
+}
+
+#searchBox {
+    width: 100%;
+    /*height: 37px;*/
+    border-top: 1px solid #d8e8e5;
+    border-bottom: 1px solid #d8e8e5;
+    border-left: 1px solid #d8e8e5;
+    background-color: #ffffff;
+}
+
+#searchSpan {
+    height: 18px;
+}
+
+.stylish-input-group .input-group-addon{
+    background: white !important;
+    border-top: 1px solid #d8e8e5;
+    border-right: 1px solid #d8e8e5;
+    border-bottom: 1px solid #d8e8e5;
+    border-left: 1px solid #d8e8e5;
+}
+
+.stylish-input-group .form-control{
+    border-right:0;
+    box-shadow:0 0 0;
+    border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+
+.modDelete{
+    width: 48%;
+    border: 1px solid #5CD3B5;
+    color: #5CD3B5;
+    background-color: #ffffff;
+    padding: 9px;
+}
+
+.modDelete:hover {
+    border: 1px solid #5CD3B5;
+    color: #5CD3B5;
+    background-color: #ffffff;
+}
+
+.modFilter {
+    width: 49%;
+    border: 1px solid #5CD3B5;
+    color: #ffffff;
+    background-color: #5CD3B5;
+    padding: 9px;
+}
+
+.modFilter:hover {
+    border: 1px solid #5CD3B5;
+    color: #ffffff;
+    background-color: #5CD3B5;
+}
+
+
+/* MY TEST TABLE*/
+
+#myTestTable {
+    border: 1px solid #d8e8e5;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.table>tbody+tbody {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.subTableHead {
+    background-color: #d8e8e5;
+    width: 100%;
+    color: #6E7C7C;
+    font-size: 14px;
+}
+
+.viewIcon {
+    color: #6E7C7C;
+    margin-left: 30px;
+}
+
+.clearIcon {
+    color: lightcoral;
+    cursor: pointer;
+    margin-left: 11px;
+}
+
+.sort-arrow {
+    margin-top: 4px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+
+/* topSM*/
+
+#topMainSm {
+    margin-top: 50px;
+}
+
+.formChoiceSm {
+    width: 100%;
+}
+
+.sm-tableHead {
+    width: 100%;
+    color: #6E7C7C;
+    font-size: 18px;
+}
+
+.panel-test {
+    border-radius: 0;
+    border: 1px solid lightgray;
+    background-color: #d8e8e5;
+}
+
+.test-body {
+    background-color: #ffffff;
+}
+
+#testSub .subT {
+    border-radius: 0;
+    margin-bottom: -6px;
+}
+
+.groupBtn {
+    margin-bottom: 12px;
+}
+
+.smBtn {
+    width: 100%;
+    padding: 13px 0;
+
+}
+
+.testIcons {
+    color: lightcoral;
+}
+
+.testDetailIcons {
+    color: #6E7C7C;
+}
+
+.table-sm {
+    font-size: 14px;
+}
+
+.table-Test {
+    width: 100%;
+    max-width: 100%;
+    margin-left: -15px;
+    margin-top: -16px;
+    margin-bottom: 0;
+}
+
+.down-arrow {
+    cursor: pointer;
+}
+
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}

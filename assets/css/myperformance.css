@@ -1,0 +1,93 @@
+/* Dean MY Performance Page CSS*/
+
+/* Performance Top Section*/
+
+#topMainPerformance {
+    margin-top: 0;
+}
+
+.myPerformance {
+    line-height: 1.7em;
+}
+
+.titles {
+    font-size: 22px;
+}
+
+#myGraph, #myGraph2 {
+    margin: 47px 105px;
+}
+
+.flex-details {
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+    margin-bottom: 6px;
+}
+
+/* MEDIA QUERY*/
+
+@media screen and (max-width: 3000px) and (min-width: 800px) {
+
+    .average-score {
+        width: 550px;
+    }
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 490px) {
+
+    .average-score {
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width: 490px) and (min-width: 0px) {
+
+    .average-score {
+        width: 150px;
+    }
+}
+
+.moduleOptions {
+    width: 100%;
+    border: 1px solid #d8e8e5;
+    background-color: #ffffff;
+}
+
+
+@media screen and (max-width: 3000px) and (min-width: 800px) {
+
+    .formChoiceSort {
+        margin-top: 20px;
+        margin-right: 65px;
+    }
+
+}
+
+    @media screen and (max-width: 800px) and (min-width: 490px){
+
+        .formChoiceSort {
+            margin-top: 23px;
+            margin-right: 1px;
+        }
+    }
+
+
+        @media screen and (max-width: 490px) and (min-width: 0px) {
+
+            .formChoiceSort {
+                margin-top: 22px;
+                margin-right: -31px;
+            }
+
+            .titles {
+                font-size: 14px;
+            }
+
+        }
+
+
+
