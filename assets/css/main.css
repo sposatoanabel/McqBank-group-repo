@@ -1035,10 +1035,10 @@ footer {
 }
 
 
-.glyphicon {
-    top: 3px !important;
-    left: 4px !important;
-    font-weight: 200 !important;
+.glyphicon-chevron-down, .glyphicon-chevron-up{
+    top: 3px;
+    left: 4px;
+    font-weight: 200;
 }
 
 /*#################################### END OF HAMID'S SECTION ###########################*/
