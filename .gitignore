@@ -2,3 +2,4 @@ ECHO is on.
 bower_components/
 node_modules/
 package.json/
+.idea/
