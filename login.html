@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="hamid khaldi">
+    <meta name="description" content="MCQ Bank">
+
+
+    <title>MCQBank/login</title>
+
+    <!-- bootstrap code css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- offcanvas-->
+    <link rel="stylesheet" href="vendors/css/offcanvas/offcanvas.css"/>
+    <!-- fontawesome-->
+    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css"/>
+
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+
+
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <div class="navbar navbar-default navbar-static-top" id="topNav">
+            <div class="container">
+                <ul id="logNav" class="nav navbar-header navbar-right">
+                    <li id="userBtn" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Anabel
+                            <b id="userChevron" class="glyphicon glyphicon-chevron-down"></b></a>
+                        <ul class="dropdown-menu ">
+                            <li><a href="#">Start a new test-Stage 2</a></li>
+                            <li><a href="#">Start a new test-Stage 3</a></li>
+                            <li><a href="#">Test History</a></li>
+                            <li><a href="#">Performance</a></li>
+                            <li><a href="#">Continue your unfinished test</a></li>
+                            <li><a href="#">My revision Notes</a></li>
+                            <li><a href="#">Manage Subscriptions</a></li>
+                            <li><a href="#">Update your profile</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Log out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--/ #topNav-->
+
+        <nav class="navbar navbar-default" role="navigation" id="bottomNav">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <div id="nav-icon1">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <a class="navbar-brand" href="index.html"><img src="assets/imgs/mcq_logo.jpg" width="160" height="37" alt=""></a>
+                </div>
+                <div id="slidemenu">
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li id="myAccountBtn" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<b class="glyphicon glyphicon-chevron-down"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Update Profile</a></li>
+                                <li><a href="#">Manage my account</a></li>
+                                <li><a href="#">Settings</a></li>
+                            </ul>
+                        </li>
+                        <li id="examInfoBtn" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Exam Info<b class="glyphicon glyphicon-chevron-down"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">GT ST Entry</a></li>
+                                <li><a href="planB-part1.html">Plan B: Part 1</a></li>
+                                <li><a href="#">SJT for Medical Students</a></li>
+                                <li><a href="#">GP I&R Scheme</a></li>
+                                <li><a href="#">Australian Exams</a></li>
+                                <li><a href="#">GMC Fitness to Practice</a></li>
+                                <li><a href="#">Multi-Speciality Recruitment</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li>
+                            <button id="btnSubscribe"  type="button" class="btn btn-primary navbar-btn"><a href="subscribe.html">Subscribe</a></button>
+                        </li>
+                        <li>
+                            <button id="btnLogIn" class="btn btn-success navbar-btn">Log in</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="topMain" class="container">
+            <h4 class="pageTitle">my account / login</h4>
+            <div class="row">
+                <div class="leftCol col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div id="mbrDiv">
+                        <h3>member login</h3>
+                        <form action="post" method="post" href="#">
+                            <input class= "loginInput" type="text" id="usrName" name="username" placeholder="Username">
+                            <input class= "loginInput" type="text" id="passWord" name="password" placeholder="Password">
+                            <div id="loginDiv">
+                                <div id="rememberPwdDiv">
+                                    <div id="rememberDiv" class="pull-left">
+                                        <span>remember me </span><img src="assets/imgs/blue-check-icon.jpg" width="20" height="20" alt="blue check icon">
+                                    </div><!--/rememberDiv-->
+                                    <div id="loginSpan">
+                                        <a href="forgot-password.html">forgot password?</a>
+                                    </div><!--/loginSpan-->
+                                </div><!--/rememberPwdDiv-->
+                               <div id="loginDivBtn">
+                                   <button class="loginPageBtn btn btnLogin btn-success">login</button>
+                               </div><!--/loginDivBtn-->
+                            </div><!--/loginDiv-->
+                        </form>
+                    </div><!--/mbrDiv-->
+                </div><!--/leftCol-->
+                <div class="loginRightCol rightCol col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div id="signUpDiv">
+                        <h3>register</h3>
+                        <div id="registerIcon">
+                            <img src="assets/imgs/register-Icon.png" width="150" height="150" alt="register icon">
+                        </div><!--/registerIcon-->
+                        <h4>create a new account</h4>
+                        <div id="signUp">
+                            <!--<button class="btn btn-info" id="signUpBtn"><a href="subscribe.html">sign up</a> <span id="signUpSpan" class="glyphicon glyphicon-menu-right"></span></button>-->
+                            <button class="btn-primary btn" id="signUpBtn">
+                                <span id="signUpTextSpan"> <a href="subscribe.html">Sign Up</a></span>
+                                <span id="signUpSpan" class="glyphicon glyphicon-menu-right"></span>
+                            </button>
+                        </div><!--/signUp-->
+                    </div><!--/signUpDiv-->
+                </div><!--/rightCol-->
+            </div><!--/row-->
+        </section><!--/topMain-->
+    </main>
+    <footer>
+        <div id="footerDiv" class="container">
+            <div id="copyRight" class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                &copy; 2017 MCQBank <span id="copyrightSpan"
+                                          class="hidden-xs">web design company DotPeak digital agency</span>
+            </div><!--/copyRight-->
+            <div id="legal" class="hidden-xs hidden-sm hidden-md col-lg-6">
+                <span><a href="#">Terms & conditions</a></span>
+                <span><a href="#">  | Privacy policy  </a></span>
+                <div class="btn-group dropup">
+                    <button type="button" class="btn btn-secondary">
+                        Share this page
+                    </button>
+                    <button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href=""><span class=""></span></a></li>
+                        <li><a href=""><span class="fa fa-facebook"></span></a></li>
+                        <li><a href=""><span class="fa fa-twitter"></span></a></li>
+                        <li><a href=""><span class="fa fa-google-plus"></span></a></li>
+                        <li><a href=""><span class="fa fa-linkedin"></span></a></li>
+                        <li><a href=""><span class="fa fa-pinterest"></span></a></li>
+                        <li><a href=""><span class="fa fa-tumblr"></span></a></li>
+                    </ul>
+                </div>
+            </div><!--/legal-->
+        </div>
+    </footer>
+</div><!--/wrapper-->
+
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="bower_components/jquery-validation/dist/additional-methods.min.js"></script>
+<script src="vendors/js/offcanvas/offcanvas.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
