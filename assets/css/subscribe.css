@@ -18,9 +18,10 @@
 .form-group label{
     display: none !important;
 }
+
 .form-horizontal .has-feedback .form-control-feedback {
-    right: 15px;
-    top: 30px;
+    right: 15px !important;
+    top: 30px !important;
 }
 
 
