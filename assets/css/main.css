@@ -849,6 +849,7 @@ footer {
         width: 100%;
     }
 
+
     #btnSubscribe, #btnLogIn {
         padding: 10px;
     }
@@ -1040,5 +1041,30 @@ footer {
     left: 4px;
     font-weight: 200;
 }
-
 /*#################################### END OF HAMID'S SECTION ###########################*/
+
+/* DEAN TO-TOP BUTTON*/
+
+
+#to-top {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+
+.btnTop {
+    border: 1px solid #00b3ee;
+    background-color: #00b3ee;
+    color: #ffffff;
+}
+
+.tabBorder {
+    margin: 60px auto;
+    border: 1px solid #add8e6;
+    border-radius: 4px;
+    padding: 50px;
+}
+
+
