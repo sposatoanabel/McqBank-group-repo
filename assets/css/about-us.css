@@ -50,4 +50,11 @@
     margin: 0 30px;
 }
 
+@media (max-width: 767px) {
+    .topAboutLeft {
+        padding: 24px;
+        margin: 35px auto !important;
+    }
+}
+
 /********************************************************************/
