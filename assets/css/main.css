@@ -213,6 +213,7 @@ input[type=text]#usrName {
 
 #signUpTextSpan {
     text-align: center;
+    flex-basis: 76%;
 }
 
 #signUpTextSpan a {
@@ -222,8 +223,15 @@ input[type=text]#usrName {
 
 #signUpSpan {
     width: 30px;
-    float: right;
+    margin-left: 43px;
+    flex-basis: 10%;
 }
+
+#signUp{
+    margin-top: 25px;
+}
+
+
 
 .btn-primary {
     border: 1px solid #2895a9;
@@ -235,28 +243,36 @@ input[type=text]#usrName {
     width: 100%;
     margin: 11px 0;
     font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #signUpBtn span:before {
     border-left: 2px solid #ffffff;
-    padding: 25px;
-    width: 30px;
+    padding: 100%;
+    width: 27px;
 }
 
 #sample {
     height: 50px;
     width: 100%;
-    margin-top: 8px;
+    margin-top: 22px;
 }
 
-#sampleMenu {
-    height: 40px;
+select#sampleMenu {
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border-radius: 5px;
+    height: 44px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #fff;
+    -webkit-appearance: none;
+    background-position-x: 384px;
+    border: 1px solid #d8e8e5;
+    -moz-appearance: none;
     width: 100%;
     outline: none;
-    border: solid 1px #d8e8e5;
-    border-radius: 4px;
-    padding-left: 15px;
-    background-color: #ffffff;
 }
 
 /*-------------------Right Col ----------------*/
@@ -587,12 +603,16 @@ footer {
         height: 590px;
     }
 
+    select#sampleMenu {
+        background-position-x: 384px;
+    }
+
 }
 
 @media screen and (max-width: 1199px) {
     /*TOP MAIN LEFT COL */
     #topMain .leftCol {
-        padding: 32px;
+        padding: 27px;
     }
 
     /*TOP MAIN RIGHT COL */
@@ -671,6 +691,10 @@ footer {
         color: #2fb1c7 !important;
         outline: none;
         margin: 5px 0 30px;
+    }
+
+    select#sampleMenu {
+        background-position-x: 308px;
     }
 
     /* FOOTER */
@@ -762,6 +786,10 @@ footer {
     .addInfo .row {
         margin-left: 0;
     }
+
+    select#sampleMenu {
+        background-position-x: 384px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -830,7 +858,7 @@ footer {
     .loginForgotPass span {
         display: block;
         padding: 18px 0;
-        margin-top: 12px;
+        font-size: 15px;
     }
 
     #loginDiv {
@@ -850,12 +878,10 @@ footer {
         opacity: 0.8;
     }
 
-    /*
-
-    .btnLogin button{
-        display: none;
+    select#sampleMenu {
+        background-position-x: 384px;
     }
-    */
+
     #sample {
         margin-top: 33px;
     }
@@ -918,7 +944,6 @@ footer {
     }
 
     .loginForgotPass span {
-
         padding: 0;
     }
 
@@ -946,6 +971,10 @@ footer {
     .mainBanner {
         padding-left: 0;
     }
+
+    select#sampleMenu {
+        background-position-x: 384px;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -970,6 +999,10 @@ footer {
     .rightCol {
         padding-right: 0;
         padding-left: 0;
+    }
+
+    select#sampleMenu {
+        background-position-x: 384px;
     }
 }
 
