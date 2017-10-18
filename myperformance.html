@@ -40,13 +40,18 @@
         <div class="navbar navbar-default navbar-static-top" id="topNav">
             <div class="container">
                 <ul id="logNav" class="nav navbar-header navbar-right">
-                    <li class="dropdown">
+                    <li id="userBtn" class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Anabel
-                            <span class="caret"></span></a>
+                            <b id="userChevron" class="glyphicon glyphicon-chevron-down"></b></a>
                         <ul class="dropdown-menu ">
+<<<<<<< Updated upstream
                             <li><a href="new-test.html">Start a new test-Stage 2</a></li>
                             <li><a href="test-stage-2.html">Start a new test-Stage 3</a></li>
                             <li><a href="new-test.html">Start a new test- MS SJT</a></li>
+=======
+                            <li><a href="test-stage-2.html">Start a new test-Stage 2</a></li>
+                            <li><a href="test-stage-3.html">Start a new test-Stage 3</a></li>
+>>>>>>> Stashed changes
                             <li><a href="testhistory.html">Test History</a></li>
                             <li><a href="myperformance.html">Performance</a></li>
                             <li><a href="test-stage-2.html">Continue your unfinished test</a></li>
@@ -78,17 +83,15 @@
                 <div id="slidemenu">
                     <ul class="nav navbar-nav pull-right">
                         <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="#">Testimonial</a></li>
-                        <li class="dropdown"><a href="account.html" class="dropdown-toggle" data-toggle="dropdown">My Account<b
-                                class="caret"></b></a>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li id="myAccountBtn" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<b class="glyphicon glyphicon-chevron-down"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="subscribe.html">Update Profile</a></li>
                                 <li><a href="account.html">Manage my account</a></li>
                                 <li><a href="managesub.html">Settings</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Exam Info <b
-                                class="caret"></b></a>
+                        <li id="examInfoBtn" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Exam Info<b class="glyphicon glyphicon-chevron-down"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">GT ST Entry</a></li>
                                 <li><a href="planB-part1.html">Plan B: Part 1</a></li>
@@ -99,7 +102,7 @@
                                 <li><a href="#">Multi-Speciality Recruitment</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">About us</a></li>
+                        <li><a href="about-us.html">About us</a></li>
                         <li>
                             <button id="btnSubscribe"  type="button" class="btn btn-primary navbar-btn"><a href="subscribe.html">Subscribe</a></button>
                         </li>
@@ -116,7 +119,7 @@
     <main>
 
 
-        <section id="topBanner">
+        <section id="topBanner" class="container">
 
                     <div id="largeBanner">
                         <div class="container">
@@ -241,6 +244,5 @@
         });
     <!-- jQuery - plugins -->
 </script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </body>
 </html>
